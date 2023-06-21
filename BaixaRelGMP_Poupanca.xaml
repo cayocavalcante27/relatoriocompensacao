@@ -82,7 +82,6 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>BalaReva.EasyDataTable</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="1490,3764" sap2010:WorkflowViewState.IdRef="Sequence_3">
@@ -113,7 +112,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
-        <x:Reference>__ReferenceID38</x:Reference>
+        <x:Reference>__ReferenceID37</x:Reference>
       </Flowchart.StartNode>
       <FlowStep x:Name="__ReferenceID0">
         <sap:WorkflowViewStateService.ViewState>
@@ -256,7 +255,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <FlowDecision.True>
-                  <FlowStep x:Name="__ReferenceID24">
+                  <FlowStep x:Name="__ReferenceID23">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <av:Point x:Key="ShapeLocation">220,2204</av:Point>
@@ -277,7 +276,7 @@
                   </FlowStep>
                 </FlowDecision.True>
                 <FlowDecision.False>
-                  <FlowStep x:Name="__ReferenceID37">
+                  <FlowStep x:Name="__ReferenceID36">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <av:Point x:Key="ShapeLocation">740,2274</av:Point>
@@ -287,7 +286,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="PathExists_21" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe\dev_cta_poup_0821.csv&quot;]" PathType="File" />
                     <FlowStep.Next>
-                      <FlowDecision x:Name="__ReferenceID36" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_22">
+                      <FlowDecision x:Name="__ReferenceID35" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_22">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -298,7 +297,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <FlowDecision.True>
-                          <FlowStep x:Name="__ReferenceID35">
+                          <FlowStep x:Name="__ReferenceID34">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <av:Point x:Key="ShapeLocation">660,2504</av:Point>
@@ -357,11 +356,11 @@
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <av:Point x:Key="ShapeLocation">220,1104</av:Point>
-                                            <av:Size x:Key="ShapeSize">200,52</av:Size>
+                                            <av:Size x:Key="ShapeSize">200,51</av:Size>
                                             <av:PointCollection x:Key="ConnectorLocation">320,1156 320,1224</av:PointCollection>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:Delete ResourceFile="{x:Null}" ContinueOnError="True" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="Delete_14" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\OneDrive - Sicredi\Documents\Relatórios Compe\RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]">
+                                        <ui:Delete ResourceFile="{x:Null}" ContinueOnError="True" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Delete_14" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\OneDrive - Sicredi\Documents\Relatórios Compe\RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -373,11 +372,11 @@
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <av:Point x:Key="ShapeLocation">220,1224</av:Point>
-                                                <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                <av:PointCollection x:Key="ConnectorLocation">320,1276 320,1324</av:PointCollection>
+                                                <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                                <av:PointCollection x:Key="ConnectorLocation">320,1275 320,1434</av:PointCollection>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:Delete ResourceFile="{x:Null}" ContinueOnError="True" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="Delete_16" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe\dev_cta_poup_0821.csv&quot;]">
+                                            <ui:Delete ResourceFile="{x:Null}" ContinueOnError="True" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Delete_16" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe\dev_cta_poup_0821.csv&quot;]">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -385,31 +384,31 @@
                                               </sap:WorkflowViewStateService.ViewState>
                                             </ui:Delete>
                                             <FlowStep.Next>
-                                              <FlowStep x:Name="__ReferenceID23">
+                                              <FlowStep x:Name="__ReferenceID8">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <av:Point x:Key="ShapeLocation">220,1324</av:Point>
-                                                    <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                    <av:PointCollection x:Key="ConnectorLocation">320,1376 320,1434</av:PointCollection>
+                                                    <av:Point x:Key="ShapeLocation">220,1434</av:Point>
+                                                    <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                                    <av:PointCollection x:Key="ConnectorLocation">320,1486 320,1504</av:PointCollection>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <ui:Delete ResourceFile="{x:Null}" ContinueOnError="True" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="Delete_17" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe\REL_VB_0821.xlsx&quot;]">
+                                                <ui:CreateDirectory Output="{x:Null}" ContinueOnError="True" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CreateDirectory_10" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)]">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                </ui:Delete>
+                                                </ui:CreateDirectory>
                                                 <FlowStep.Next>
-                                                  <FlowStep x:Name="__ReferenceID8">
+                                                  <FlowStep x:Name="__ReferenceID7">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                        <av:Point x:Key="ShapeLocation">220,1434</av:Point>
-                                                        <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                        <av:PointCollection x:Key="ConnectorLocation">320,1486 320,1504</av:PointCollection>
+                                                        <av:Point x:Key="ShapeLocation">220,1504</av:Point>
+                                                        <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                                        <av:PointCollection x:Key="ConnectorLocation">320,1556 320,1614</av:PointCollection>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <ui:CreateDirectory Output="{x:Null}" ContinueOnError="True" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="CreateDirectory_10" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)]">
+                                                    <ui:CreateDirectory Output="{x:Null}" ContinueOnError="True" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CreateDirectory_11" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\OneDrive - Sicredi\Documents\Relatórios Compe&quot;]">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -417,378 +416,360 @@
                                                       </sap:WorkflowViewStateService.ViewState>
                                                     </ui:CreateDirectory>
                                                     <FlowStep.Next>
-                                                      <FlowStep x:Name="__ReferenceID7">
+                                                      <FlowStep x:Name="__ReferenceID6">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <av:Point x:Key="ShapeLocation">220,1504</av:Point>
-                                                            <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                            <av:PointCollection x:Key="ConnectorLocation">320,1556 320,1614</av:PointCollection>
+                                                            <av:Point x:Key="ShapeLocation">220,1614</av:Point>
+                                                            <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                                            <av:PointCollection x:Key="ConnectorLocation">320,1666 310,1666 310,1686.5</av:PointCollection>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:CreateDirectory Output="{x:Null}" ContinueOnError="True" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="CreateDirectory_11" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\OneDrive - Sicredi\Documents\Relatórios Compe&quot;]">
-                                                          <sap:WorkflowViewStateService.ViewState>
-                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                            </scg:Dictionary>
-                                                          </sap:WorkflowViewStateService.ViewState>
-                                                        </ui:CreateDirectory>
-                                                        <FlowStep.Next>
-                                                          <FlowStep x:Name="__ReferenceID6">
-                                                            <sap:WorkflowViewStateService.ViewState>
-                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                <av:Point x:Key="ShapeLocation">220,1614</av:Point>
-                                                                <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                                <av:PointCollection x:Key="ConnectorLocation">320,1666 310,1666 310,1686.5</av:PointCollection>
-                                                              </scg:Dictionary>
-                                                            </sap:WorkflowViewStateService.ViewState>
-                                                            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Always" DisplayName="Baixa Rel_GMP" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="e116ff57-6b68-4351-ac77-816a514955e0" Version="V2">
-                                                              <uix:NApplicationCard.Body>
-                                                                <ActivityAction x:TypeArguments="x:Object">
-                                                                  <ActivityAction.Argument>
-                                                                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                                                                  </ActivityAction.Argument>
-                                                                  <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="480,4459" sap2010:WorkflowViewState.IdRef="Sequence_19">
-                                                                    <Sequence.Variables>
-                                                                      <Variable x:TypeArguments="x:String" Name="Usuario" />
-                                                                      <Variable x:TypeArguments="ss:SecureString" Name="Senha" />
-                                                                      <Variable x:TypeArguments="x:String" Name="strNomeArquivo" />
-                                                                    </Sequence.Variables>
-                                                                    <sap:WorkflowViewStateService.ViewState>
-                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                      </scg:Dictionary>
-                                                                    </sap:WorkflowViewStateService.ViewState>
-                                                                    <uix:NClick ClickType="Single" DisplayName="Click 'Abrir o'" sap:VirtualizedContainerService.HintSize="438,157" sap2010:WorkflowViewState.IdRef="NClick_40" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="8, 51, 44, 22" ElementType="Button" FriendlyName="'Abrir o'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' /&gt;&lt;ctrl name='Abrir o Gerenciador de Sites.' role='split button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' /&gt;&lt;ctrl name='Abrir o Gerenciador de Sites.' role='split button' automationid='' check:text='Abrir o Gerenciador de Sites.' /&gt;" Guid="0cfab73e-40cc-4f89-a625-6d27aba2372e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAaCAYAAADxNd/XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANHSURBVFhH7ZbZTxNBHMf5R4hPGBKfeDQ8+URMlEQjoo8aUJAHIcSEGE2IlKJcAoJQ5GhBbiiUc1voQUqv7QEtLaUchRFoQbnCP/B1d4gkhBVWqRyRh09mMjP7y+8zv9mdjYqOvoaYmOvY29u7lBwI7O7uXkquBM6b/1tgLfwD3oUNeBc34AmsUvg+P8bPCT0TaU4lMDkbgtJB0GMnKGyfwTu5C8wMwYiPwD23LvhMpBElMKxXYf370YQmAyH0Ogm6bASSpim8llkw4CZQTRJMzYWPrP8XiBJwLdpg9U5gZ2cH29vbCK2H6DhfgU4rQZuJ4G0di+wKAxXqZgk3d4EEHEELfMtuGFwMNKZBmKb1CG+sweFbQaOWoE5DaPJpBUNoMRI0GQgcM6uCsSKNKIFxvwaWuXF4lp0cLriXHRidGKECfPKyEYKsMh2eSweh0BM0jF0wgYlZLU3cuzQF15INzqCV+8qswOlbpclXDRC8LB1DqqSfClUPcQLcnFCs44iNjf0tQut5RAkwrJIKuII2GPxqit7BwM5VoEy5gMr+ZSqQkqeiMiVdAW7um2Csk/iT5HlECfAvr4btB+Ppw1ezjPt0NqPdWo8GbTneNJj3BapHkVqhwifVEvKb3bB7/06AR2zyPKIEeNzzdsj0xVSgzVqHLlaBDrYR2Z9H8bFnHjlyNV4plCjtnkNuvR3sNBGMIxYxyfOIEgitr2HA2kkr0GFroAIKbRWK6wqQIzOiqMOPjDIGTwp7aZ+vgO2UAmKJir5xG7cSEgQnf9HvbIfao4IxoEWLuZYeH7vXDNZLkKeYpLfwiw8MnuUP0D5/qdk8ZyTwIDML8XHHV6DLrkCfsxWtli909ztZOa2K2T6NxBQp7qUVIj5ZgptJubifVkTHHFN+wViRJuppZhLiTjhCcmMlt/P7Z7+N232+7dV0HFpTUloKiUR6aOwsECXQYpGhyViNPkM7lLo21PaVwz3tBsOoIcmXQip9j/T0DNy5m8j1pVTEMD6O2dkAwuF/+0sh7ghxR0atG8bm5ia2trbg8/lgMplQXVODh8mPD0h+tN8mJSWjpbUVOp0OwaWgYMxIIeolvsiIvgcuKlcC582BgFwuv4TI8RN45D6KkpgTggAAAABJRU5ErkJggg==" InformativeScreenshot="90161ac6244e75bc52d3a68285875eaa.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='wxWindowNR' title='FileZilla' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,389" sap2010:WorkflowViewState.IdRef="TryCatch_12">
-                                                                      <TryCatch.Try>
-                                                                        <uix:NClick ClickType="Single" DisplayName="Click 'Novo site'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_41" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                          <uix:NClick.Target>
-                                                                            <uix:TargetAnchorable DesignTimeRectangle="56, 77, 54, 18" FriendlyName="'Novo site'" FullSelectorArgument="&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Selecionar Entrada:' role='outline' /&gt;&lt;ctrl name='Novo site' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Selecionar Entrada:' role='outline' /&gt;&lt;ctrl name='Novo site' role='outline item' automationid='' check:text='Novo site' /&gt;" Guid="55573266-3fc9-4126-8bbe-06bea6f8df70" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADoAAAAWCAYAAACR1Y9lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVFhH7VTtjcUgDGMq5mEbhmEXZukGufBhSLhC+96PO4nWktWSkmAHqKGH4HlGj+PYksBrdBcCTzYayBlDxgURQ9ySjzL2R4ye7JdrAxOjlqw15IJM+kejip/pAKZGfeAuWk9xjG9nlAsFZ8j6+Cuex/k48RGvLLsfyY8nITgyaNhpzshSQ8/B2unZv7Xrpeo6CqIesDS6fhdC5R1KxsT9Ts3qYic5dW7mkF8403Ey5vy+ObeNlsSysIhnkbpz2hC+8bvazVmOYN0dKVZrGvTV+W2XE0WjgGuj7TiK+IXo6PlnxkLxzHPuGq1MuUl0b97KqK4rCdwwymxdk4sJkeNiaWwd76YUcJFzwt6ohdFaV5+ATuCeUWbpsIg387IBYP2hjHdtmVOZrkqbg0ZoTekk5O+or+qKOBM4MboXgdfoLgReo7sQaEZ3x0OMEv0AceDqN56ymyYAAAAASUVORK5CYII=" InformativeScreenshot="031bc983f70a4f7c2ca5aa3b7aa6718b.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                          </uix:NClick.Target>
-                                                                        </uix:NClick>
-                                                                      </TryCatch.Try>
-                                                                      <TryCatch.Catches>
-                                                                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_13">
-                                                                          <sap:WorkflowViewStateService.ViewState>
-                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                            </scg:Dictionary>
-                                                                          </sap:WorkflowViewStateService.ViewState>
-                                                                          <ActivityAction x:TypeArguments="s:Exception">
-                                                                            <ActivityAction.Argument>
-                                                                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                                                                            </ActivityAction.Argument>
-                                                                          </ActivityAction>
-                                                                        </Catch>
-                                                                      </TryCatch.Catches>
-                                                                    </TryCatch>
-                                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Host'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,218" sap2010:WorkflowViewState.IdRef="NTypeInto_33" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="ftps-coop.sicredi.net" Version="V1">
-                                                                      <uix:NTypeInto.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="390, 70, 215, 23" ElementType="InputBox" FriendlyName="'ftps-coop.sicredi.net'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="53e31545-7a63-4131-ab53-f4357999dd79" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANsAAAAbCAYAAAD1a/r0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJJSURBVHhe7ZiBkYQgDEWpy4IoYqugGpvZYjiQRAMSTvcEndv/ZphZA4av5Iuu8QCAIcBsAAxiNdvr9UJDQ+vQmMxsAIBrgdkAGATMBsAgYDYABgGzATCI82abrTfGeDM5/6bQv+Xt/GQm77pc6Owt5+46D3gKJ80WC8R4O9OhLBhwkl73DmvyVD4wm1xILOznwGzfxgmzxUUMr4/UJueyY7Nsd7TQc3wt4nG86m/vpm38tjvWUMYur1tKDrWvpUlSm7MsXH2MtVOI2XAUh0ktFIuIeLp/nLuch6G4o1f35TwxaDdPHM/HoWU3CNzNxTsbLTZ/zy3FQP3xW+/Q4qeC3hsi5V5TyNwH+qqaJFV98vraura4PCceWurLNb5dNKfUWNFE56y6lu9lNm9rnloucDcdzJYv9GypwOgpnBUrxbYnM8fEbsBU4nlupa+lSVLTJ8/VdJX5Kc+6u8QWJ4vx7E8led5eY6KMl3oq86i5wN10NlvaDWRhpyd6pdgZragr8c/MttckyfWJczVdZf6W/svNdkAPeAwdzCZ2B6UgYkHnO4jkzGsk5/69r66p1J/Y9Mn+lq7GPVhJcdaov0ZqvyNl3xE94Cn80WwhEnaQ8hUm/VmQ4qsBlu8NGlt9IktSIe1yLEbheFFQal9Dk7yeqr7yemu6yjGBTEtoPKGYQ/+DRPsdKY6VefI1AU/hpNl+o1J4t/NETeAbgdkAGATMBsAgLjYbAEADZgNgEDAbAIOA2QAYhGo2NDS06xuzmg0A0BeYDYAheP8D6ac5pVDUY38AAAAASUVORK5CYII=" InformativeScreenshot="40077b63d612659eda1e6fe085f347c7.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="309, 73, 28, 16" ElementType="Text" FriendlyName="'&amp;Host'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Host:' cls='Static' title='&amp;amp;Host:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Host:' cls='Static' title='&amp;amp;Host:' check:text='&amp;amp;Host:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACvSURBVEhL7ZLhDQMhCIVZi4VYh21cxmGoIBU1ufqjNqaJLzE5n4BfngdyWBfgAnQASQhQOPu26cnfox8DrHv/ECCzIICAL0ruSxbG3te+2IMWJhJALpWhCaBrGNYboNa0Sw3Gz3R40Lgm+DXAIgG7kIoTSuRAngwOA55mhvYBuDKjpVa93QD2PT/BCKRSiJrENPPrJ1B51OO/UaTDmx9QmpB5Sv0Z4IwuwAU4DCDyAvoDK0WPRELOAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NTypeInto.Target>
-                                                                    </uix:NTypeInto>
-                                                                    <uix:NSelectItem DisplayName="Select Item 'Protocolo'" sap:VirtualizedContainerService.HintSize="438,157" sap2010:WorkflowViewState.IdRef="NSelectItem_11" Item="FTP - Protocolo de Transferência de Arquivos" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NSelectItem.Items>
-                                                                        <scg:List x:TypeArguments="x:String" Capacity="2">
-                                                                          <x:String>FTP - Protocolo de Transferência de Arquivos</x:String>
-                                                                          <x:String>SFTP - SSH File Transfer Protocol</x:String>
-                                                                        </scg:List>
-                                                                      </uix:NSelectItem.Items>
-                                                                      <uix:NSelectItem.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="390, 98, 308, 23" ElementType="DropDown" FriendlyName="'FTP -'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='ComboBox' /&gt;&lt;ctrl name='Protocolo:' role='combo box' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='ComboBox' /&gt;&lt;ctrl name='Protocolo:' role='combo box' automationid='' /&gt;" Guid="22e64bfb-77d9-4327-b346-a8f89a1aa90f" InformativeScreenshot="8c4aeeec1af5b696d2f41a19ed1722af.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="309, 101, 55, 16" ElementType="Text" FriendlyName="'Protocolo'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='Static' title='Protoco&amp;amp;lo:' /&gt;&lt;ctrl name='Protocolo:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='Static' title='Protoco&amp;amp;lo:' /&gt;&lt;ctrl name='Protocolo:' role='text' automationid='' check:text='Protocolo:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAUCAYAAAAz30VQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADrSURBVFhH7VMBDgQRDPQtH/Idv9nPeEyPulKWHptccodJNlk6xgylYCOcsKvihF0VLOwFRilQ6dNg3bv0Uwg+n3mrwmYRZzUobWFe87mZMXwh7HPRvw8b/43xt62MH3k4C5q1vcHJwGNPIU52uAQHVjdq3TWVzx7vMrfOHGzjGEKnHeK4NFYeTKKK3Bg06xJG9QXe57D5hNINIvgGHijK60GbNp3gNmqIUX2Rd4fQxhw7h8UxEy02neHOtHFLX+DNvNkSjRoKU8uXtXC6OE8uBC4ZpudTGm+tqbz0eHLY9XHCrooTdlVsFBbgBVEw4JNWixPrAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NSelectItem.Target>
-                                                                    </uix:NSelectItem>
-                                                                    <uix:NSelectItem DisplayName="Select Item 'Criptografia'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NSelectItem_12" Item="Requer FTP sobre TLS implícito" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NSelectItem.Items>
-                                                                        <scg:List x:TypeArguments="x:String" Capacity="4">
-                                                                          <x:String>Use explicit FTP over TLS if available</x:String>
-                                                                          <x:String>Requer FTP sobre TLS explícito</x:String>
-                                                                          <x:String>Requer FTP sobre TLS implícito</x:String>
-                                                                          <x:String>Only use plain FTP (insecure)</x:String>
-                                                                        </scg:List>
-                                                                      </uix:NSelectItem.Items>
-                                                                      <uix:NSelectItem.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="390, 126, 308, 23" ElementType="DropDown" FriendlyName="'Requer FTP'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='ComboBox' /&gt;&lt;ctrl name='Criptografia' role='combo box' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='ComboBox' /&gt;&lt;ctrl name='Criptografia' role='combo box' automationid='' /&gt;" Guid="be36243f-b8bd-4ac0-842e-e46fe21d7ee8" InformativeScreenshot="3973479b34b1ca054acfeb72ee221d8e.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="309, 129, 63, 16" ElementType="Text" FriendlyName="'Criptografia'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='Static' title='Cripto&amp;amp;grafia' /&gt;&lt;ctrl name='Criptografia' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='Static' title='Cripto&amp;amp;grafia' /&gt;&lt;ctrl name='Criptografia' role='text' automationid='' check:text='Criptografia' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAAAUCAYAAADWQYA8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVFhH7VWLDYUgDGQtFmIdtnEZh+FRCvTKx6jxffLCJSQCba+cJ5qwULHEACwxAEsMwBIDMBBjD96aYEwe1seVAXYfrLHBDze/jM1J7xf61GKkRBPclueEuOZxfhlbcB8VjfiaM5wEiMGOuFPkGN8Q4x6fiJFc4WKpGZjEORstSHFImp83dhZZ1KYNWodPriidHVjWWydKDd9xCH9ccVKDa2s+6UHE6XMEWozZ/ZDARExQ5thoLF7y04EaoWphjq19dLGyt3s6uN4TfgRyjPhwXtCvX3bGmKQvTG+AD9XsDXhqbPdCjjnqRZnGLK6ZD3MYF+6MI5J2D2s1e0+JoeoQ36wXmE9zGCBGRFZNCRIL8N/kgCQ9g4UV6SgPOLpY2es/E6hDvZ7+LPN8msPQYhBSULFRHPVNHZDkZ77cOA8FrZeWnBI4dEPlhdAYXaASy+5LsdYFd8YZ0xxGL8YttA08BOWa9+OnxUiOUnfIe/FjYoCN0/icKwgPifEfWGIAlhgVIbwA2Kfwvxzrs+YAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NSelectItem.Target>
-                                                                    </uix:NSelectItem>
-                                                                    <uix:NClick ClickType="Single" DisplayName="Click 'Tipo de lo&amp;gon'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="390, 171, 308, 23" ElementType="DropDown" FriendlyName="'Normal'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='ComboBox' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='ComboBox' /&gt;" Guid="08e577c1-6332-4ea3-947c-1941db3d6b4f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAbCAYAAADoMJNGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVHhe7dnLjcIwEIDh9OReOLgZF8IlDXCighRBAalk1mPj4DzIkkiwy+Qf6ZM2zuv2y1kaYRiGMToEjmEYszME7nK5AIAJZUaB6/seAL4agQNgFoEDYBaBA2AWgQNgFoEDYNaLgWvFN400vl1YdxK6eu1T/vLdAL7BhsA5ca4R387XCRyA/2hT4EIbYuSCdNN1AgfgA67X6+K6Wjq3LXAxJq1vxIVutp6OuxhA/ZS9e+z28nXeu7jupS33aTCra7ug5/Px4x35nWX98ZlM4IAjud1ucjqd5Hw+z87pmp7Ta+r1zYFb/7uKWord+Nw4jDFWZTfY+nHU0rGGUK+tPXs3gCNYityzuKkdgYs0QGknVa2noI2jpDuvHLxpjDYe3wOYlfXpPQCOoI7cWtzUvsD1nYT0g0O1/q7AjZ6r7y3XTe8BcBQlcmtxUzsDFw3/b6uDM/1ELWFaCdhvx7p7K5+y6Zn1++p7AByJhm0tbmp/4KL8o0C1PkSvDp/aELTZcd4tpmc6L54dHIAXvRg4APg+BA6AWQQOgFkEDoBZBA6AWQQOgFlPAwcAFpQZAscwDGNtCBzDMEZH5AcrXLniioc95QAAAABJRU5ErkJggg==" InformativeScreenshot="541256c21bf20f3b7bee03d0f3cb9715.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="309, 174, 76, 16" ElementType="Text" FriendlyName="'Tipo de lo&amp;gon'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='Static' title='Tipo de lo&amp;amp;gon:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='Static' title='Tipo de lo&amp;amp;gon:' check:text='Tipo de lo&amp;amp;gon:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAAUCAYAAAAa2LrXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFXSURBVFhH7ZaNjcMgDIVZi4W8DtuwTIbhgAC1zU+SM3dSW38SUhuM/XjBtCYoItRAIWqgEDVQiBoopBnowQRj+mEBgjU2uKMEbscHeJT/afzfMjiB/y1QDRTy8Qbi7+Wzd7GtS4vjnRyv52mAL885KM46R+uRHBArcpi+Vc3bdfC6kt9Bm2t79PGZdQHt+DcGxqQ1SRZB55oQMoehcYezUSTOgdZEweQFZXo945pXddbrTJ1MptUXucdAPJdyFiFZBD0xbQ6T4ogIlDPneJ2KPLoEPH5S87LOTCvfY79njNDAIzi720Cao2cd/wYGojuBCDnnmmFTM2jcqLX6tsX0esY1r+vM1032v6uFAZKYs8WaiEQWUtsP52Dke+WMu7rcly2cWNW8XQevW+z/noErePI3gpyyfXyNgemO46dnBx9s4PkDV1t4/J9SzkMDFY4aKEQNFBHCDwnl01ZUMgiFAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <uix:NClick ClickType="Single" DisplayName="Click 'Normal'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_43" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="1, 16, 306, 15" FriendlyName="'Normal'" FullSelectorArgument="&lt;ctrl name='Tipo de logon:' role='list' /&gt;&lt;ctrl name='Normal' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Tipo de logon:' role='list' /&gt;&lt;ctrl name='Normal' role='list item' automationid='' check:text='Normal' /&gt;" Guid="041240f1-77eb-4b33-8d47-33cff174f11b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATQAAAATCAYAAAAeX/GlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF1SURBVHhe7Zk9jsIwEEY5FwfiDMinCLfICdJyimgLJDoaRJUu1azHXjvOPyl2l1jvk56EJ+O4exqHgzFGCCFk71GXITRCSBaJQjucvwAAdg1CA4BsQGgAkA0TQntIpZfR+pHUQr2V4pLW/or/PBsA9sKM0Fq5PUWqMm1GaADw2cwKrShfVmovOQ7rCA0APpR5oVl5nGqR2/U+qrv1xQrP/VHq001zvq+qW1tt5BT2qSB9q+s9XvW5T3eGPzMmXnsRGgCssyi05d+JxJzc+s/6IrQJ017Z6Kp77tYqPu1NmTsbAGCaFaFZVDhuUkrqTmB9Celk5QU3lM/G9Y/wfEJ9uAcAYMy60M53KdwfBEn9t4TWe6+eG/qGewAAxrwhNEv8XpYKZnjlDCJaENbaWqezcDV170zPS/cAAIx5T2gW/xE/qUfJadL+DQIbrf006PJspGJCA4ANTAgNAGCfIDQAyAaEBgDZEIVGCCF7D0IjhGQTY4x8AwWsfE905/uaAAAAAElFTkSuQmCC" InformativeScreenshot="483388026cdcaf979f420c64e777b415.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='ComboLBox' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="rpa_0821_rel_compe" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="438,180" sap2010:WorkflowViewState.IdRef="GetRobotCredential_6" Password="[Senha]" Username="[Usuario]" />
-                                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Usuário'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_34" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="[Usuario]" Version="V1">
-                                                                      <uix:NTypeInto.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="390, 199, 308, 23" ElementType="InputBox" FriendlyName="'rpa_0821_dev_cheques'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' idx='3' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="87a1d9b8-b737-40a5-872c-43221187d116" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAbCAYAAADoMJNGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALGSURBVHhe7ZqBjesgDEAzVwZiiE6RabpMh8nHGFJDIaS9Xq7lvychNWkwBsnvHPWmFQBgUBAcAAzLJrjL5cJgMBhDjEQmOACAbwfBAcCwIDgAGBYEBwDDguAAYFg+R3BXt07TFMa83OJNT+P+1em9h+eFMMet13h5jOvqpnktQ72fs9YBgA8RnBR9EpIVQOPzbVmXzV72mdu6zF56zpl4R7FxfpOz1gGAzxCcdFzurqPbMmtX5kU2z4vXliJdm3ksIlIrhSESQXAA/ztPCk6L07k5vgLGYr16EXVeI63ASjahJTbhWXm1pFW733q2QAS65b3oXlIa5jvdq3aH2TYkTyPgR2JHGePo3P0ze1w30sw1xttCFNfVeLW8AMbjBcHZgtTrrchDMdliS5RFmNMWnMcUaK0QRaLZ3ICs1xOc5n5fRqTdkIbPJ6xRdJr1jjKhEqnnZs5MYm65NtZ9JtfsuhGv2AfAqLzUwdWLScmKPhRv6hTy5yxNwYncmq+oLYEIkldHcEVsnRNzzLqeOMLCNq7/vNe9hRi1HMozO7DuXq6vxvOf62cHMA5vFpx5jcsKXO7b5wqKjiIJr93ZdeKFvH4quPr8Zm4lzRg7Z9ias5frK/EisgeRnjl6gKF4g+BMJ2ALSmSUijLct/MKskI0a9gY4TKuVQjxEYnRLmxFc09htNhTjsW+LEE2zndvvfh7r6jlGfbW3cvV/FER5GyO7CPSFTXAF/OWDk5/dNBXoLt3tPDC/SAEO69CKMwyRirmGCd+kd2LIy9SyasnII9Zc/9HBj+2pOK+bJJNVDAphk6pn2F33b1czXf6LzKdePb5I+cE8KU8KbiSsljhHDh3gCOcLDh53nQTp3QQv73mX+0JwQH0oIP7Sjh3gCP8UHAAAJ8LggOAYUFwADAsCA4AhqUpOAaDwRhhJDbBAQCMBoIDgEFZ138aq+QaUp2V0QAAAABJRU5ErkJggg==" InformativeScreenshot="491f71e2e68eea3a7354c4503a5b8702.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="309, 202, 43, 16" ElementType="Text" FriendlyName="'&amp;Usuário'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Usuário:' cls='Static' title='&amp;amp;Usuário:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Usuário:' cls='Static' title='&amp;amp;Usuário:' check:text='&amp;amp;Usuário:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAUCAYAAAAdmmTCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVEhL7ZQLDsMgCIa5lhfiOt7Gy3gYJmgUqevsls408U+WFMbjK2KBHqwNv0obfpUUfCAERz4WUzTyXVf0jgBDsYyiJ/dlj/vhExz++vZv9Af4SPegX4KP5B0QQP7lLbA5vR2wxbe1yTGIaZUAk2VqyBrZPkkBCZzvBjEPz8mHvbU5oxos7ednIFeDjv/VNvo+/ARfJtKasmyOsblhmSBU/0mO9ODTaOLTO8ysSMHzWuiiSYNi8uWo05kF0bVvgc+B+mjEHmTyC+QTyPeghsikC4g+ZoGagJdnuzblZc7XhtVfyi64WwE1He1HVCCqlkv+mcmzBLjkaf9n+Gdpw6/Shl+lB8MTvQBdAHRIExGfWwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NTypeInto.Target>
-                                                                    </uix:NTypeInto>
-                                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Senha'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,241" sap2010:WorkflowViewState.IdRef="NTypeInto_35" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" SecureText="[Senha]" Version="V1">
-                                                                      <uix:NTypeInto.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="390, 227, 308, 23" ElementType="InputBox" FriendlyName="'Ls0a63bacA'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' idx='4' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="843ce6b3-04f2-41bd-ae88-85902b303fdf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAbCAYAAADoMJNGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVHhe7dbBDYJAFEVR6qIgiqAKqrEZixmVOARNXEBcDG/OSd6Gv+ZmhgIQSuCAWFvg5nk2M4tY9RE4gKsTOCCWwAGxBA6IJXBALIEDYgkcEEvggFgnAncr0zCUYd1Ylvv786rnG9Cag4G7l2WsP3jd9Pzte78BLToYuP0Lpq6+ZHq+AS3ygvvLDWjRwcC97F8y3y+Ynm9Aa04EDuAaBA6IJXBALIEDYgkcEEvggFgCB8QSOCDWz8CZmSWs2gIHkEbggFClPAD4erbB7kho5wAAAABJRU5ErkJggg==" InformativeScreenshot="ae5dc9c0df41ccbc00955272e7cea132.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="309, 230, 35, 16" ElementType="Text" FriendlyName="'&amp;Senha'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Senha:' cls='Static' title='&amp;amp;Senha:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Senha:' cls='Static' title='&amp;amp;Senha:' check:text='&amp;amp;Senha:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAYAAAAOTSQ2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADqSURBVEhL7ZPNEcQgCIVpy4Zoh25sxmJYfzCIcXazJIccfDMelAhfeAj8Ym04rzacVxYuIgOALOQox/8rMkJgSrJ1SuEScRiB8p7cdE/Dla4F4pv5RE/D1YTAYZWxdnW2WwBIR0HvSizqvTFvxJ4rLxR7Fs2ZHkRiCu1Sv3MUOuqiFGo/Y5Ib8BzrxUxs1JD7N5xIOlXrmq7JqoEJ2uy/xcpWuw3mO6s1XFai0CDmh3LICWfyFaeuwOX50I+avaN951l0wo32VdDFuej0IKx1otnaW7bqXENAxt65yzP3Em04rzacVy+GY/4AS+QhMvt/PdoAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NTypeInto.Target>
-                                                                    </uix:NTypeInto>
-                                                                    <uix:NClick ClickType="Single" DisplayName="Click '&amp;Conectar'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_44" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="426, 426, 88, 26" ElementType="Button" FriendlyName="'&amp;Conectar'" FullSelectorArgument="&lt;wnd aaname='Conectar' cls='Button' title='&amp;amp;Conectar' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Conectar' cls='Button' title='&amp;amp;Conectar' check:text='&amp;amp;Conectar' /&gt;" Guid="85fe7f63-7394-4e95-9db5-3f178af63ea9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVGhD7ZbdlYQgDEbpiW7SDK3QgEVYih3YActflCiOs2c0s8f9Hu4DBERvYtTM8xyAHhCuDIQrI4QPwwBuoHW8Ez5NE7gQCFcGwpWBcGUgXBkIV+YLwsfgrAnGVKwLY3fdM9EVPrpgo2Tycs6149vxgYwNbuzF7kdReKlsIfsr/Bfhubop+F6MqW8At5s1OVWSoyVm3Xiwrz1Dti/y6Trr2JDP6zzt5/hMIhvnT+77F+gKf9mvi4xFcpbIlVhFsQyfxLOEmgyu2BgrySiyRWJ66w9j5cz9/s/4OxXeiafKKwnYSmrGorqbKj08ryM8J5D3t8I36y5AT/hZD/9IeEfsu8LFunSPjxEeqZUkpMcHLn8p6QG3LYVFvBBe9+1f/TdbSronbnX5zCcJT+SHal7/tq+L2JHgznh7TfHhW+c5mctHMq9rPqyWAj2qwgGEawPhykC4MhCuDIQrA+HKnAoH19M6FsLB/UC4MhCuyhx+ANunAJRRuLxXAAAAAElFTkSuQmCC" InformativeScreenshot="e0eb6bf215a2cf97fd6958fead205ac7.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="438,136" sap2010:WorkflowViewState.IdRef="SendHotkey_6" Key="m" KeyModifiers="Ctrl">
-                                                                      <ui:SendHotkey.Target>
-                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="d45acc16-d61c-4c66-8903-5701da8d8ce9">
-                                                                          <ui:Target.TimeoutMS>
-                                                                            <InArgument x:TypeArguments="x:Int32" />
-                                                                          </ui:Target.TimeoutMS>
-                                                                          <ui:Target.WaitForReady>
-                                                                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                                                                          </ui:Target.WaitForReady>
-                                                                        </ui:Target>
-                                                                      </ui:SendHotkey.Target>
-                                                                    </ui:SendHotkey>
-                                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Arquivo'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_36" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]" Version="V1">
-                                                                      <uix:NTypeInto.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="73, 116, 200, 26" ElementType="InputBox" FriendlyName="'C:\Users\cayo_garces\Do…'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="1cee8392-1911-4077-9985-612e2084d118" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAeCAYAAABg1PHWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPiSURBVHhe7ZiLcdswDIY9lwbSEJlC03iZLOENVIAPCQABinR1bnr5vzs0IUXiSVBKH6/Xa4dAIGOChoFAJuRomK+vLwgEEojbMACAFjQMABOgYQCYAA0DwARoGAAmeLNhvvdteeyPR5FloxnJc18fK/1r4fll39Rib+4OIh9+M726iHqSLPcXJODu+vf0jZ6JWMd8w3xv+0IJXaVVmtuMF8/VrEl4jtydsBPfh9/NWF14TI3zkeTdXf++vrEzEeuYbJj8ZhnKIzdWs9Bz5O6ECVwffjmjdUkX4yfe0HfX/0Lf0JmIdcw1zFUSn6v4POPmskY9R+Sc/tQ74kp263y1n/et61LmvL2eD4xvh2+fOpdv17xO5VfGqPwauEjE+mXbVC5a22nWxMjM5Gg0J15dTOxBrPrGNnp4T3pY5jfKXdl/fvI5exw7jJ8jIszraPxEqCM/q8w3TPP3ikA1DEFj/S3sFUbM8X6ZiITZc+jkeZF4dy/R+JCTqOcssU/nAcn2j0cp4TY2iV7/vXETeOtlvCbG0He5h4cl5uGcmP0J2TDadxWrtMF66TBW3Rxj/j3vl+vsxZe3dOwo4j0qr1PxR7XJtir3vmEayJhqMBloRcwl/eZAlLl6SyRJkRld3t6E8aEXQypktSMTJoqr3i5aj75tDby+l4vQto3R8b3Efu4nYUfK/GVOrJ2EuIl7sYq4nvQm3J51LG9yq1+Oxe89O3kgYhR7olhG4x/QUZlrmJSEzqFw0IdIJrHgJCl3uCiId0hkUAK1t6B8iPSpee1nvSnrzzLZ6Hm7YULbJsYh31suc2LtMFKno//cX/0lHUej0Frec8Rr9cux+L1nRz0TOVJ2mDaWoTNxUZvKZMMQpculcVaa/peMnynDBBsUi9lRuSaNlbLMeTjZ+YHPEIE62IzygZPt6JO+pyQJ3TymQ7CqZs9+qaSbYmv0+lzEoi+0bWMMfC+62/mTfk6sHRObHZtYk27KTdXP43WVnz2efi/Gjp1ujoK8Cq7jj3TkZ5X5hmGSw/XVKBrAa5hUZBlALnqzl+H9h15x+Ky9FJlMNA+DvQnrQ05CXZ8TJfxqmoPV0/yR4ILyS693ET6Gf5wq2ybGhOc74eVoOCdapxtLL9b0TMzZcROHHJtnoZ1OfaK8zpyJsDYE+VR5r2FmIWd6t99H+Esf1Cv8DtLBsEX8MD+hLv+SN+L/TMP87/Dhbt6cEfa29m633IDt2xj8dNAwXepngPw0eBfxSRE0Efj5oGEAmAANA8AEaBgAJkDDADABGgaACdAwAEyAhgFggrBhIBCIL03DQCCQa0HDQCDD8tr/AH1UyOZLRQz2AAAAAElFTkSuQmCC" InformativeScreenshot="18a56d896dfe8e68332ab4954b7b7b73.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="23, 121, 45, 16" ElementType="Text" FriendlyName="'&amp;Arquivo'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='&amp;amp;Arquivo:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='&amp;amp;Arquivo:' check:text='&amp;amp;Arquivo:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAUCAYAAAAk/dWZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE/SURBVFhH7ZXbccQgDEXVFP2oGpqhF2pxBwpCBiQensmuk7AZf9xZMCDp+AovHMdBn64HYhc9ELtoChEQCDAMz29R9OTAkY+TtRc1QnASh4Tu3kQ/qQEiekfOx/rbr++oDiKSLw5kRzzFuhYIUxsgOgJACvwst0ZqvSTnfV4X92Rvc1LPy5hzAWEoe5ICEpScKjar7tN7TlkIU7gCynNOzsUWd2RegrNz8C2INOaC1N3juyjxbGwBUmeuIPoWyoXVJF1hC6eGQi/XeHy6ymPjQnkuaoCjFAQHbPY1qSS3Qyzu4MsQE5ukpbTFfWEtsG2nrt859gJCXgZ/DXXRNraBumonJp19jVpL9RBJuThxzF5suwaYilxBnMDD/1Iu/Dzfx11BvK8J5C+pQtS3tpA+NNcGEO/rX0D8nR6IPXTQF/h1XYRUWOSyAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NTypeInto.Target>
-                                                                    </uix:NTypeInto>
-                                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Caminho &amp;remoto'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_37" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="/CREDIS/mt/821/siret/" Version="V1">
-                                                                      <uix:NTypeInto.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="490, 116, 200, 23" ElementType="InputBox" FriendlyName="'/'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="0fa6fce7-d30c-439b-9317-032a29bb610c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAbCAYAAAAwGWBlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADASURBVHhe7ddBDYQwEIZRdFVQRaCiajCDiTro9kD2wpJlep33kp8EAV9gtt77MLN3E4xZYN9g9n03s4f9DAa4EwwECAYCBAMBgoGA9WCOOrZ6XC+Qw2Iw52iljHZer5DEWjBnG8XXhYSWgjlbGXoho4VgjlG3Op+QTzyYeewXxwtJBYNx7JNbLBjHPsmFgnHsk10gmHnslzZ/yiCv0BcGshMMBAgGAgQDAYKBAMFAwGMwZvZ7t2DM7P8EY/Z6fXwAvfZV+6dyhL0AAAAASUVORK5CYII=" InformativeScreenshot="504ee29821187a41dd4a132c10af84c7.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="391, 119, 94, 16" ElementType="Text" FriendlyName="'Caminho &amp;remoto'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Caminho remoto:' cls='Static' title='Caminho &amp;amp;remoto:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Caminho remoto:' cls='Static' title='Caminho &amp;amp;remoto:' check:text='Caminho &amp;amp;remoto:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGIAAAAUCAYAAAB23ujSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVFhH7VfZscMgDKQp+qEamqEXanEHehwCSxgIODMxyeNjZ8C6Vl6EE3EcB2w8jy3EIthCLIItxCLYQiyCihAWtBQgBEJqsBefm7AapJCgbcXGYEAN+f0OuBDhRQlQhj/TdP8RfKMQ73EmQsRJYCI8hv8sRJgGBYYYSxhFrixl8DkSMHGavM2LabXMvlJb7hvI4lqrth/JedoccHJTXP3wxBxKeR7YF4tLvc7wL3Ok2j7H+Sy/mxZP43ournwuxPD3AMnnF+oKpVhfxO0z+bAvmqZxifTFr8zJbbmp0GzKSRH96ofAweWMtlqtHv9W7SJ/z9fn7AqRCzaAJCN6BFr71nrCVuHpJzU3nFHkCHGJOyIcgh6PYt+tXas3wjNi/BvBEnvfVHSikeZ6wvaWEDyu6ne79ut6g0I44Ilnzi5h+NVExykUSUUnGmmuZ22E49QLLu77pt+d2rW4hm/3akoIAWR8cwD5fyEVqKcmwu8ZR+pHUeZwKHubvZouOXh+f+LPvB3fISE2HsHPCpFPPaLmsxL2RCyCLcQi2EIsgi3EEjjgD/3o0ZtiMw+FAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NTypeInto.Target>
-                                                                    </uix:NTypeInto>
-                                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Ar&amp;quivo'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_38" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="[&quot;RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]" Version="V1">
-                                                                      <uix:NTypeInto.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="490, 144, 200, 23" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' idx='2' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="1e9d269e-28ff-48b2-a745-192ba0ab3a25" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAbCAYAAAAwGWBlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABzSURBVHhe7dOxDYAwAMAw7u7V/QA2lhbR7LaUE3LNOW9JZxlGCr3DjDEkfbQdBlgZBgLDQGAYCAwDgWEgMAwEhoHAMBAYBgLDQGAYCAwDgWEgMAwEhoHAMBAYBgLDQGAYCAwDwecwkvYtw0j6zzDScfN+ABo3bj2x+32SAAAAAElFTkSuQmCC" InformativeScreenshot="695b278e965eed19bd214cab5b77001a.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
-                                                                          <uix:TargetAnchorable.Anchors>
-                                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                              <uix:Target DesignTimeRectangle="391, 147, 45, 16" ElementType="Text" FriendlyName="'Ar&amp;quivo'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='Ar&amp;amp;quivo:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='Ar&amp;amp;quivo:' check:text='Ar&amp;amp;quivo:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAUCAYAAAAk/dWZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVFhH7ZXbccQgDEXVFP2oGpqhF2pxBwpCBiQenonjzZCJP+4sL0s6vsILx3HQX9cLsYteiF00hQgIBBiG9UcUPTlw5ONk76ZGCE7ikNA9m+iTGiCid+R8rL/9/o7qICL54kB2xFOse4EwtQGiIwCkwGu5NVLrJTnv8764J2ebk3pexpwLCEM5kxSQoORUsVn1nD5zykKYwhVQnnNyLra4I/MSnJ2Db0GkMRek7h7fRYlnYwuQeuYKom+hXFhN0hW2cGoo9HKPx6erPDYulHVRAxylIDhgs69JJXkcYnEHb0NMbJKW0hb3hbXAtp26fufYCwh5Gfw11EXb2Abqqp2YdPY1ai3VQyTl4sQxe7HtHmAqcgVxAg//S7nw8/k+7gri55pA/pJuQ9S3PNHs/Cf1v53YSS/EHjroC9y+Y2Ca8KtOAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
-                                                                            </scg:List>
-                                                                          </uix:TargetAnchorable.Anchors>
-                                                                        </uix:TargetAnchorable>
-                                                                      </uix:NTypeInto.Target>
-                                                                      <sap:WorkflowViewStateService.ViewState>
-                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                        </scg:Dictionary>
-                                                                      </sap:WorkflowViewStateService.ViewState>
-                                                                    </uix:NTypeInto>
-                                                                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="438,22" sap2010:WorkflowViewState.IdRef="Delay_37" />
-                                                                    <uix:NClick ClickType="Single" DisplayName="Click 'Começar a'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="13, 497, 233, 15" ElementType="CheckBox" FriendlyName="'Começar a'" FullSelectorArgument="&lt;wnd aaname='Começar a transferência imediatamente' cls='Button' title='Começar a transferência &amp;amp;imediatamente' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Começar a transferência imediatamente' cls='Button' title='Começar a transferência &amp;amp;imediatamente' check:fulltext='Começar a transferência imediatamente' /&gt;" Guid="4ba9676e-ab8d-4dee-86ad-099fc4b12e1f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAO0AAAATCAYAAAB81YrmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM2SURBVHhe7ZgNrsMgCIB7pyU9j7fxML1Lz7Ib+KT+FBGctt3eurDkS6ogIIq1m57Pp1MU5T5o0SrKzdCiVZSbkYv28XgMgw0pivIZiqId+WnRKsr/8IaiXZ2dJzdNkdm6ldVTulnMiVwuzvixZuFknazWzdPs7MrIOEb1h4E5Rftv9/V9XFu0WwLJBvF99syG+VrQxmHlV3Gu6BZj3AIHqfmlw3M0959aq1dcE8eFRRvesKdO9FvxyaI96md1axq3+udKfle0aLeH00W7vWXhVEd9lPgmTlfnvcDjZJZdDrLVzll3tqtgB/ssr+bJ/mL2vsksUTf4NAZ81HHzYxIwlsprey2/1sYrr2efG42/9JP12Pkz82no8f4BLodxTNxs7dxQ/fh8dm1R/2xtbV+MDeS078XanIo12qjyy8chzrfBtUXb/OYKQadCCsHixPug0/j4DZcTtLVJUuIigSzohc1WJLUCjw0+2/oA8Sf2t+zVfvOi4bnBc95ACc4Pauf5U/9tPda/mEMaw0h/9HdqbYONtHdCEWH7PTFwOlQW/FwRK59fGodkI8l5PvemZeRw2nEnebNdnEwRSFDLf0x+INmlPgjsGMyrmD1dfuu5lQtH9KX5H9Wr/HM5JGOGctPwR9tSzNBfvBAa9nvXenRtaPtIfqlMtJHG8nzum5bZEMeLltlYXf0Qo5DArjGYFzF3+63jSNcxNjfSPI/q4XbPmOHcNPzRtuQf+nuKVoyN+OzVa7WlWJs2iEy00ebCovXE06soXB9Y+PcYAkayIuDWRGk72KmvEZB8ph9iSgu++RQS2DUG8yLmbr98HFC4+3WL6nPzP6OX2kIOsc5wblr+OF3J/753xOtxb84Prw1uw/NofjkZZ6PNtUULbElAr/uUnEomTayjTX3kK0VIQuoPixw24tY3G2fEUxUjjSnJf2aw16Jev6gNmwn0N6QDzcPO/6ge197H1G/7ntxg/R5/qC2tLcqN/EeUHFu5VgfWpjvW9pgyDslGGstzfdH+NzEJo6eXotyFomhHwYa+C3+6dZxYynvIbw0PJ1fOkYv2V0jXj+K7WlF+iJ8rWkX5dbRoFeVWPN0f23MsW1FfOcMAAAAASUVORK5CYII=" InformativeScreenshot="f86d338d8ba5f7b9b30541d57e8d0183.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <uix:NClick ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_46" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="606, 517, 88, 26" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='5100' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='5100' title='OK' check:text='unchecked' /&gt;" Guid="efbe1d2a-43a8-4a7d-923e-3618c243f22b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEYSURBVGhD7dbBEYMgEIVheqIbKsmNVmiFKnK2AzrYiGhkxcyYUVd25h3+A7qnT0RNSomQXAAXDuDCMXDzeqMbYsZssTOMzseM2WIeGIYBXRDAhQO4cAAXDuDC6QQPjowx36yP1f1AzljycVlH8nacc6GaeS594BN2C7qic/Dgtg/k2ZSBF1wXNtejJ2schWm9gkdvu9nZS7rAGWxdfhDLrp7B/fgmWE+xmX02feC7iPXOz+DlbG/ehA7SB350h4c8u1zrJ13gf57h5QO794CeSxn4WINYjpBffynTh7Ojs1wfeG7zH853PAfP5V/DXtB1gisO4MIBXDiACwdw4QAu3GFwdG3MmC12htH5mHG9QPcHcOEALlqiDyd/APL6OyhdAAAAAElFTkSuQmCC" InformativeScreenshot="9d6fb4645b2d8bfbba37c4634e50968c.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <uix:NClick ClickType="Single" ContinueOnError="True" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_47" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Timeout="3" Version="V1">
-                                                                      <uix:NClick.Target>
-                                                                        <uix:TargetAnchorable DesignTimeRectangle="752, 286, 88, 26" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;wnd ctrlid='5100' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='5100' title='OK' check:text='OK' /&gt;" Guid="72516997-dd33-4553-a362-6e636023c44f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVGhD7dbLEYMgFIVheqIbmqEVGrAISrEDO7gRiRHETCYz5sDNnMW/UFl9PMQsyyIMF8HBERxcBT5NE/tBpXEDPs8zuzGCgyM4OIKDIzg4goPTBx6cGGNeWR+L70GcseLj/hzF23WcC8WYvukC37Bb0AO9Bg/uPCH9UwSecV04vY9erHEStucDPHo71Mre0wNewZalidhX9RPcrzvBeonN2P7pAr9ELFd+As9ne7MTBuk/V3hIY/d3Y6UH/MszPP9gryaob4rA1xrEfIS8u6VsP87BznJd4KnTPbxe8TV4Kl0NR0LXB648goMjODiCgyM4OIKDIzi4j+Ds/krjCpz9PoKDIzi0RR4GwbCBH2bPeQAAAABJRU5ErkJggg==" InformativeScreenshot="ccca395333769e737fdaabf776a454d8.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='O arquivo já existe no destino' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
-                                                                      </uix:NClick.Target>
-                                                                    </uix:NClick>
-                                                                    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="438,22" sap2010:WorkflowViewState.IdRef="Delay_38" />
-                                                                    <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="438,89" sap2010:WorkflowViewState.IdRef="PathExists_18" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]" PathType="File" />
-                                                                  </Sequence>
-                                                                </ActivityAction>
-                                                              </uix:NApplicationCard.Body>
-                                                              <uix:NApplicationCard.TargetApp>
-                                                                <uix:TargetApp Area="276, 23, 1013, 715" FilePath="C:\ProgramData\App-V\73FD2FF0-1E96-446E-AB34-71D42D5F2E2A\936BAFF7-63B5-4AFC-82F4-221B824DCDB7\Root\VFS\ProgramFilesX86\FileZilla FTP Client\filezilla.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVSSURBVFhHvZdrTBVXEMcHpJRKUfFDP5mgGPzQtFrb1A+EakpNmqZGgmmTxqSPVNOkrUZMWnxFaVL5YNNHSqGAgMKtaMvDaw0PC1iKvGmF8pQCSgCRK/Tyxvue9H+uuzdnlw0VSbjhx5lzZs7M7DlnZ3dJ/K4TlYHGt4n80L4I5vKJnvvsoa4JXBZ2XxC9CXkSRD9L9CTaclALOQTty2AMNh8qPtPAIHwEwFco5FkQI3SlRHmQm4RMv+MPHSdwgyowAhjcBTWK7AKVYEjpDwAxzwYc4AboAR5gASIxoRO2jaBPkSeAHK9GJNCpdITBciKS7SMsuz+EWkmxXHQgdgBVYM/BfcAq5ZJ83c+P/1izhquAaFVZ39ePV65c6fOhIvxKvqcg7yAxULYAdZs3s2N8nJ3T04tiMDWVy5C8kU8JD10iegGn8t41DKD1osqi7Tp4kD0ez6LpOnTI50PvW+lPIPYrFIc7oYSoHrARlqIiwwD/R11kpKE/iVuI7U/FRO1FGDCiJDDQu5yyY/vYGNsslgWZGx7mUpwBI586+gj/iq7iPgesp2rrVk1wl8PBlTgTFeHhC1IeFjbPlwFugLOI3xUUIMB6mvft0yQw2dY2z2YJtHmDxxPFos7eBSxjBr1JSZoEbqena2yWiPVzor1UiJJZgAE9Zuz/SEmJJoGOhAS+FhExj98MxuaxcSMX+vvr49hFAq/hYTGYhwEZ86pVPNnZqUnAMTXFNnEIH4OJ1lYuDA6WY4zhNnyDIoie+hlnALDM1XXr2KG7A5bCSHk552NVpRitiB0sClHtRSwFYJnq2Fh2u92Gzh6HjtOnGbG8KDGcoIFy8Vy+gEcqYJnejAyNg9GGBm45enRB/j5xgkebmjTznDYb3zaZ+FJQkMY/cIFmsQVP/0RUDVhmdmhI46hu/36NXs+FFSu4+fhxdszMaObdSk7miwiutzfhNkTs1ZSDepxNdAewSsH69RonbpeLCzds8On1mBC88cABds7O+uY45+a4C7exKSDAcA6wnCd6lSDMQvAAVqmIidEkMN3fz+fxZJNtVLLFleP2FAHlOa1nzrAJh85ojsQcfUr0XiZewwCr3Dx1SuPsTn6+TydzDlfXePgwO6QrF1vQkpjI53DPG82RGP+E6CNvNczA+x5gQSYm9ubmahJojI/36mQyceUtONnOBw80tn+ePMlZSExvb0CLN3g60S/AmYZBtJyFA2PBiVcdunCKS3ft8upUMrC0DUjKIS27HUWq4cgRn43qT7TZoaF8Fgnrxt3ATPg3kIoBlayQEJ4bHfU5tlmtnLdli0+fJvYc++uy2302gnokJHSq3VkkaY6K4vaUFJ7o6eF0rIqqkxihd/EtkIJaAFiQv22b99SrjqcHBjhz7Vqv7kdsTwPudfnKVVzYivHubragDljRyudiAFVQ9a+STPTPXqIn6Eui8B/wLAAsyMHzvHjPHh/mnTu94yojukLzKNyIi9P4ULAmEj1PSeh8vwgKtm9n2+Sk17Eo1QuVa7FNw/X1nIOnoZEv4KFv8Zn1HbIB/CgkYW9rsQ2/7t7NWShOWShaBdHRXH3sGHfn5XE/lrvn8mWuQVXM2bSJk3CojfyAWRCD11Kib1CKAS8zbVHipRRCHXBJiuXC8zXRTZFAPXArNAIrEAb3wV+KLHTCbkTp38NkkbgdOIGY1w+E7l/oxIo6RB9yK9pBRTcD1HgPExA/nAMxoX0HluQrokj0OYHoJfG5DrkLhviWIPoA74/oC8evhxEFoa0BzZBXoxXzZt4n+ljxaQLWt4gC8cn+DGQPbN5BDHHRxaCDiOg/HIOM9etvimwAAAAASUVORK5CYII=" InformativeScreenshot="74ba5f74a3095bbbfb2e4131e56edaee.png" Selector="&lt;wnd app='filezilla.exe' cls='wxWindowNR' title='FileZilla' /&gt;" />
-                                                              </uix:NApplicationCard.TargetApp>
-                                                              <sap:WorkflowViewStateService.ViewState>
-                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                </scg:Dictionary>
-                                                              </sap:WorkflowViewStateService.ViewState>
-                                                            </uix:NApplicationCard>
-                                                            <FlowStep.Next>
-                                                              <FlowDecision x:Name="__ReferenceID17" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_19">
+                                                        <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Always" DisplayName="Baixa Rel_GMP" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="e116ff57-6b68-4351-ac77-816a514955e0" Version="V2">
+                                                          <uix:NApplicationCard.Body>
+                                                            <ActivityAction x:TypeArguments="x:Object">
+                                                              <ActivityAction.Argument>
+                                                                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                                              </ActivityAction.Argument>
+                                                              <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="480,4459" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                                                <Sequence.Variables>
+                                                                  <Variable x:TypeArguments="x:String" Name="Usuario" />
+                                                                  <Variable x:TypeArguments="ss:SecureString" Name="Senha" />
+                                                                  <Variable x:TypeArguments="x:String" Name="strNomeArquivo" />
+                                                                </Sequence.Variables>
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                    <av:Point x:Key="ShapeLocation">270.5,1686.5</av:Point>
-                                                                    <av:Size x:Key="ShapeSize">79,87</av:Size>
-                                                                    <av:PointCollection x:Key="TrueConnector">270.5,1730 270.5,1794 320,1794</av:PointCollection>
-                                                                    <av:PointCollection x:Key="FalseConnector">349.5,1730 490,1730</av:PointCollection>
+                                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                <FlowDecision.True>
-                                                                  <FlowStep x:Name="__ReferenceID5">
+                                                                <uix:NClick ClickType="Single" DisplayName="Click 'Abrir o'" sap:VirtualizedContainerService.HintSize="438,157" sap2010:WorkflowViewState.IdRef="NClick_40" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="8, 51, 44, 22" ElementType="Button" FriendlyName="'Abrir o'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' /&gt;&lt;ctrl name='Abrir o Gerenciador de Sites.' role='split button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' /&gt;&lt;ctrl name='Abrir o Gerenciador de Sites.' role='split button' automationid='' check:text='Abrir o Gerenciador de Sites.' /&gt;" Guid="0cfab73e-40cc-4f89-a625-6d27aba2372e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAaCAYAAADxNd/XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANHSURBVFhH7ZbZTxNBHMf5R4hPGBKfeDQ8+URMlEQjoo8aUJAHIcSEGE2IlKJcAoJQ5GhBbiiUc1voQUqv7QEtLaUchRFoQbnCP/B1d4gkhBVWqRyRh09mMjP7y+8zv9mdjYqOvoaYmOvY29u7lBwI7O7uXkquBM6b/1tgLfwD3oUNeBc34AmsUvg+P8bPCT0TaU4lMDkbgtJB0GMnKGyfwTu5C8wMwYiPwD23LvhMpBElMKxXYf370YQmAyH0Ogm6bASSpim8llkw4CZQTRJMzYWPrP8XiBJwLdpg9U5gZ2cH29vbCK2H6DhfgU4rQZuJ4G0di+wKAxXqZgk3d4EEHEELfMtuGFwMNKZBmKb1CG+sweFbQaOWoE5DaPJpBUNoMRI0GQgcM6uCsSKNKIFxvwaWuXF4lp0cLriXHRidGKECfPKyEYKsMh2eSweh0BM0jF0wgYlZLU3cuzQF15INzqCV+8qswOlbpclXDRC8LB1DqqSfClUPcQLcnFCs44iNjf0tQut5RAkwrJIKuII2GPxqit7BwM5VoEy5gMr+ZSqQkqeiMiVdAW7um2Csk/iT5HlECfAvr4btB+Ppw1ezjPt0NqPdWo8GbTneNJj3BapHkVqhwifVEvKb3bB7/06AR2zyPKIEeNzzdsj0xVSgzVqHLlaBDrYR2Z9H8bFnHjlyNV4plCjtnkNuvR3sNBGMIxYxyfOIEgitr2HA2kkr0GFroAIKbRWK6wqQIzOiqMOPjDIGTwp7aZ+vgO2UAmKJir5xG7cSEgQnf9HvbIfao4IxoEWLuZYeH7vXDNZLkKeYpLfwiw8MnuUP0D5/qdk8ZyTwIDML8XHHV6DLrkCfsxWtli909ztZOa2K2T6NxBQp7qUVIj5ZgptJubifVkTHHFN+wViRJuppZhLiTjhCcmMlt/P7Z7+N232+7dV0HFpTUloKiUR6aOwsECXQYpGhyViNPkM7lLo21PaVwz3tBsOoIcmXQip9j/T0DNy5m8j1pVTEMD6O2dkAwuF/+0sh7ghxR0atG8bm5ia2trbg8/lgMplQXVODh8mPD0h+tN8mJSWjpbUVOp0OwaWgYMxIIeolvsiIvgcuKlcC582BgFwuv4TI8RN45D6KkpgTggAAAABJRU5ErkJggg==" InformativeScreenshot="90161ac6244e75bc52d3a68285875eaa.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='wxWindowNR' title='FileZilla' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,389" sap2010:WorkflowViewState.IdRef="TryCatch_12">
+                                                                  <TryCatch.Try>
+                                                                    <uix:NClick ClickType="Single" DisplayName="Click 'Novo site'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_41" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                      <uix:NClick.Target>
+                                                                        <uix:TargetAnchorable DesignTimeRectangle="56, 77, 54, 18" FriendlyName="'Novo site'" FullSelectorArgument="&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Selecionar Entrada:' role='outline' /&gt;&lt;ctrl name='Novo site' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Selecionar Entrada:' role='outline' /&gt;&lt;ctrl name='Novo site' role='outline item' automationid='' check:text='Novo site' /&gt;" Guid="55573266-3fc9-4126-8bbe-06bea6f8df70" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADoAAAAWCAYAAACR1Y9lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVFhH7VTtjcUgDGMq5mEbhmEXZukGufBhSLhC+96PO4nWktWSkmAHqKGH4HlGj+PYksBrdBcCTzYayBlDxgURQ9ySjzL2R4ye7JdrAxOjlqw15IJM+kejip/pAKZGfeAuWk9xjG9nlAsFZ8j6+Cuex/k48RGvLLsfyY8nITgyaNhpzshSQ8/B2unZv7Xrpeo6CqIesDS6fhdC5R1KxsT9Ts3qYic5dW7mkF8403Ey5vy+ObeNlsSysIhnkbpz2hC+8bvazVmOYN0dKVZrGvTV+W2XE0WjgGuj7TiK+IXo6PlnxkLxzHPuGq1MuUl0b97KqK4rCdwwymxdk4sJkeNiaWwd76YUcJFzwt6ohdFaV5+ATuCeUWbpsIg387IBYP2hjHdtmVOZrkqbg0ZoTekk5O+or+qKOBM4MboXgdfoLgReo7sQaEZ3x0OMEv0AceDqN56ymyYAAAAASUVORK5CYII=" InformativeScreenshot="031bc983f70a4f7c2ca5aa3b7aa6718b.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                      </uix:NClick.Target>
+                                                                    </uix:NClick>
+                                                                  </TryCatch.Try>
+                                                                  <TryCatch.Catches>
+                                                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_13">
+                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                        </scg:Dictionary>
+                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                      <ActivityAction x:TypeArguments="s:Exception">
+                                                                        <ActivityAction.Argument>
+                                                                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                                                        </ActivityAction.Argument>
+                                                                      </ActivityAction>
+                                                                    </Catch>
+                                                                  </TryCatch.Catches>
+                                                                </TryCatch>
+                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Host'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,218" sap2010:WorkflowViewState.IdRef="NTypeInto_33" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="ftps-coop.sicredi.net" Version="V1">
+                                                                  <uix:NTypeInto.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="390, 70, 215, 23" ElementType="InputBox" FriendlyName="'ftps-coop.sicredi.net'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="53e31545-7a63-4131-ab53-f4357999dd79" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANsAAAAbCAYAAAD1a/r0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJJSURBVHhe7ZiBkYQgDEWpy4IoYqugGpvZYjiQRAMSTvcEndv/ZphZA4av5Iuu8QCAIcBsAAxiNdvr9UJDQ+vQmMxsAIBrgdkAGATMBsAgYDYABgGzATCI82abrTfGeDM5/6bQv+Xt/GQm77pc6Owt5+46D3gKJ80WC8R4O9OhLBhwkl73DmvyVD4wm1xILOznwGzfxgmzxUUMr4/UJueyY7Nsd7TQc3wt4nG86m/vpm38tjvWUMYur1tKDrWvpUlSm7MsXH2MtVOI2XAUh0ktFIuIeLp/nLuch6G4o1f35TwxaDdPHM/HoWU3CNzNxTsbLTZ/zy3FQP3xW+/Q4qeC3hsi5V5TyNwH+qqaJFV98vraura4PCceWurLNb5dNKfUWNFE56y6lu9lNm9rnloucDcdzJYv9GypwOgpnBUrxbYnM8fEbsBU4nlupa+lSVLTJ8/VdJX5Kc+6u8QWJ4vx7E8led5eY6KMl3oq86i5wN10NlvaDWRhpyd6pdgZragr8c/MttckyfWJczVdZf6W/svNdkAPeAwdzCZ2B6UgYkHnO4jkzGsk5/69r66p1J/Y9Mn+lq7GPVhJcdaov0ZqvyNl3xE94Cn80WwhEnaQ8hUm/VmQ4qsBlu8NGlt9IktSIe1yLEbheFFQal9Dk7yeqr7yemu6yjGBTEtoPKGYQ/+DRPsdKY6VefI1AU/hpNl+o1J4t/NETeAbgdkAGATMBsAgLjYbAEADZgNgEDAbAIOA2QAYhGo2NDS06xuzmg0A0BeYDYAheP8D6ac5pVDUY38AAAAASUVORK5CYII=" InformativeScreenshot="40077b63d612659eda1e6fe085f347c7.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="309, 73, 28, 16" ElementType="Text" FriendlyName="'&amp;Host'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Host:' cls='Static' title='&amp;amp;Host:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Host:' cls='Static' title='&amp;amp;Host:' check:text='&amp;amp;Host:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACvSURBVEhL7ZLhDQMhCIVZi4VYh21cxmGoIBU1ufqjNqaJLzE5n4BfngdyWBfgAnQASQhQOPu26cnfox8DrHv/ECCzIICAL0ruSxbG3te+2IMWJhJALpWhCaBrGNYboNa0Sw3Gz3R40Lgm+DXAIgG7kIoTSuRAngwOA55mhvYBuDKjpVa93QD2PT/BCKRSiJrENPPrJ1B51OO/UaTDmx9QmpB5Sv0Z4IwuwAU4DCDyAvoDK0WPRELOAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NTypeInto.Target>
+                                                                </uix:NTypeInto>
+                                                                <uix:NSelectItem DisplayName="Select Item 'Protocolo'" sap:VirtualizedContainerService.HintSize="438,157" sap2010:WorkflowViewState.IdRef="NSelectItem_11" Item="FTP - Protocolo de Transferência de Arquivos" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NSelectItem.Items>
+                                                                    <scg:List x:TypeArguments="x:String" Capacity="2">
+                                                                      <x:String>FTP - Protocolo de Transferência de Arquivos</x:String>
+                                                                      <x:String>SFTP - SSH File Transfer Protocol</x:String>
+                                                                    </scg:List>
+                                                                  </uix:NSelectItem.Items>
+                                                                  <uix:NSelectItem.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="390, 98, 308, 23" ElementType="DropDown" FriendlyName="'FTP -'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='ComboBox' /&gt;&lt;ctrl name='Protocolo:' role='combo box' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='ComboBox' /&gt;&lt;ctrl name='Protocolo:' role='combo box' automationid='' /&gt;" Guid="22e64bfb-77d9-4327-b346-a8f89a1aa90f" InformativeScreenshot="8c4aeeec1af5b696d2f41a19ed1722af.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="309, 101, 55, 16" ElementType="Text" FriendlyName="'Protocolo'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='Static' title='Protoco&amp;amp;lo:' /&gt;&lt;ctrl name='Protocolo:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Protocolo:' cls='Static' title='Protoco&amp;amp;lo:' /&gt;&lt;ctrl name='Protocolo:' role='text' automationid='' check:text='Protocolo:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAUCAYAAAAz30VQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADrSURBVFhH7VMBDgQRDPQtH/Idv9nPeEyPulKWHptccodJNlk6xgylYCOcsKvihF0VLOwFRilQ6dNg3bv0Uwg+n3mrwmYRZzUobWFe87mZMXwh7HPRvw8b/43xt62MH3k4C5q1vcHJwGNPIU52uAQHVjdq3TWVzx7vMrfOHGzjGEKnHeK4NFYeTKKK3Bg06xJG9QXe57D5hNINIvgGHijK60GbNp3gNmqIUX2Rd4fQxhw7h8UxEy02neHOtHFLX+DNvNkSjRoKU8uXtXC6OE8uBC4ZpudTGm+tqbz0eHLY9XHCrooTdlVsFBbgBVEw4JNWixPrAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NSelectItem.Target>
+                                                                </uix:NSelectItem>
+                                                                <uix:NSelectItem DisplayName="Select Item 'Criptografia'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NSelectItem_12" Item="Requer FTP sobre TLS implícito" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NSelectItem.Items>
+                                                                    <scg:List x:TypeArguments="x:String" Capacity="4">
+                                                                      <x:String>Use explicit FTP over TLS if available</x:String>
+                                                                      <x:String>Requer FTP sobre TLS explícito</x:String>
+                                                                      <x:String>Requer FTP sobre TLS implícito</x:String>
+                                                                      <x:String>Only use plain FTP (insecure)</x:String>
+                                                                    </scg:List>
+                                                                  </uix:NSelectItem.Items>
+                                                                  <uix:NSelectItem.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="390, 126, 308, 23" ElementType="DropDown" FriendlyName="'Requer FTP'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='ComboBox' /&gt;&lt;ctrl name='Criptografia' role='combo box' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='ComboBox' /&gt;&lt;ctrl name='Criptografia' role='combo box' automationid='' /&gt;" Guid="be36243f-b8bd-4ac0-842e-e46fe21d7ee8" InformativeScreenshot="3973479b34b1ca054acfeb72ee221d8e.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="309, 129, 63, 16" ElementType="Text" FriendlyName="'Criptografia'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='Static' title='Cripto&amp;amp;grafia' /&gt;&lt;ctrl name='Criptografia' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Criptografia' cls='Static' title='Cripto&amp;amp;grafia' /&gt;&lt;ctrl name='Criptografia' role='text' automationid='' check:text='Criptografia' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAAAUCAYAAADWQYA8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVFhH7VWLDYUgDGQtFmIdtnEZh+FRCvTKx6jxffLCJSQCba+cJ5qwULHEACwxAEsMwBIDMBBjD96aYEwe1seVAXYfrLHBDze/jM1J7xf61GKkRBPclueEuOZxfhlbcB8VjfiaM5wEiMGOuFPkGN8Q4x6fiJFc4WKpGZjEORstSHFImp83dhZZ1KYNWodPriidHVjWWydKDd9xCH9ccVKDa2s+6UHE6XMEWozZ/ZDARExQ5thoLF7y04EaoWphjq19dLGyt3s6uN4TfgRyjPhwXtCvX3bGmKQvTG+AD9XsDXhqbPdCjjnqRZnGLK6ZD3MYF+6MI5J2D2s1e0+JoeoQ36wXmE9zGCBGRFZNCRIL8N/kgCQ9g4UV6SgPOLpY2es/E6hDvZ7+LPN8msPQYhBSULFRHPVNHZDkZ77cOA8FrZeWnBI4dEPlhdAYXaASy+5LsdYFd8YZ0xxGL8YttA08BOWa9+OnxUiOUnfIe/FjYoCN0/icKwgPifEfWGIAlhgVIbwA2Kfwvxzrs+YAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NSelectItem.Target>
+                                                                </uix:NSelectItem>
+                                                                <uix:NClick ClickType="Single" DisplayName="Click 'Tipo de lo&amp;gon'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="390, 171, 308, 23" ElementType="DropDown" FriendlyName="'Normal'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='ComboBox' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='ComboBox' /&gt;" Guid="08e577c1-6332-4ea3-947c-1941db3d6b4f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAbCAYAAADoMJNGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVHhe7dnLjcIwEIDh9OReOLgZF8IlDXCighRBAalk1mPj4DzIkkiwy+Qf6ZM2zuv2y1kaYRiGMToEjmEYszME7nK5AIAJZUaB6/seAL4agQNgFoEDYBaBA2AWgQNgFoEDYNaLgWvFN400vl1YdxK6eu1T/vLdAL7BhsA5ca4R387XCRyA/2hT4EIbYuSCdNN1AgfgA67X6+K6Wjq3LXAxJq1vxIVutp6OuxhA/ZS9e+z28nXeu7jupS33aTCra7ug5/Px4x35nWX98ZlM4IAjud1ucjqd5Hw+z87pmp7Ta+r1zYFb/7uKWord+Nw4jDFWZTfY+nHU0rGGUK+tPXs3gCNYityzuKkdgYs0QGknVa2noI2jpDuvHLxpjDYe3wOYlfXpPQCOoI7cWtzUvsD1nYT0g0O1/q7AjZ6r7y3XTe8BcBQlcmtxUzsDFw3/b6uDM/1ELWFaCdhvx7p7K5+y6Zn1++p7AByJhm0tbmp/4KL8o0C1PkSvDp/aELTZcd4tpmc6L54dHIAXvRg4APg+BA6AWQQOgFkEDoBZBA6AWQQOgFlPAwcAFpQZAscwDGNtCBzDMEZH5AcrXLniioc95QAAAABJRU5ErkJggg==" InformativeScreenshot="541256c21bf20f3b7bee03d0f3cb9715.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="309, 174, 76, 16" ElementType="Text" FriendlyName="'Tipo de lo&amp;gon'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='Static' title='Tipo de lo&amp;amp;gon:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Tipo de logon:' cls='Static' title='Tipo de lo&amp;amp;gon:' check:text='Tipo de lo&amp;amp;gon:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAAUCAYAAAAa2LrXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFXSURBVFhH7ZaNjcMgDIVZi4W8DtuwTIbhgAC1zU+SM3dSW38SUhuM/XjBtCYoItRAIWqgEDVQiBoopBnowQRj+mEBgjU2uKMEbscHeJT/afzfMjiB/y1QDRTy8Qbi7+Wzd7GtS4vjnRyv52mAL885KM46R+uRHBArcpi+Vc3bdfC6kt9Bm2t79PGZdQHt+DcGxqQ1SRZB55oQMoehcYezUSTOgdZEweQFZXo945pXddbrTJ1MptUXucdAPJdyFiFZBD0xbQ6T4ogIlDPneJ2KPLoEPH5S87LOTCvfY79njNDAIzi720Cao2cd/wYGojuBCDnnmmFTM2jcqLX6tsX0esY1r+vM1032v6uFAZKYs8WaiEQWUtsP52Dke+WMu7rcly2cWNW8XQevW+z/noErePI3gpyyfXyNgemO46dnBx9s4PkDV1t4/J9SzkMDFY4aKEQNFBHCDwnl01ZUMgiFAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <uix:NClick ClickType="Single" DisplayName="Click 'Normal'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_43" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="1, 16, 306, 15" FriendlyName="'Normal'" FullSelectorArgument="&lt;ctrl name='Tipo de logon:' role='list' /&gt;&lt;ctrl name='Normal' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Tipo de logon:' role='list' /&gt;&lt;ctrl name='Normal' role='list item' automationid='' check:text='Normal' /&gt;" Guid="041240f1-77eb-4b33-8d47-33cff174f11b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATQAAAATCAYAAAAeX/GlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF1SURBVHhe7Zk9jsIwEEY5FwfiDMinCLfICdJyimgLJDoaRJUu1azHXjvOPyl2l1jvk56EJ+O4exqHgzFGCCFk71GXITRCSBaJQjucvwAAdg1CA4BsQGgAkA0TQntIpZfR+pHUQr2V4pLW/or/PBsA9sKM0Fq5PUWqMm1GaADw2cwKrShfVmovOQ7rCA0APpR5oVl5nGqR2/U+qrv1xQrP/VHq001zvq+qW1tt5BT2qSB9q+s9XvW5T3eGPzMmXnsRGgCssyi05d+JxJzc+s/6IrQJ017Z6Kp77tYqPu1NmTsbAGCaFaFZVDhuUkrqTmB9Celk5QU3lM/G9Y/wfEJ9uAcAYMy60M53KdwfBEn9t4TWe6+eG/qGewAAxrwhNEv8XpYKZnjlDCJaENbaWqezcDV170zPS/cAAIx5T2gW/xE/qUfJadL+DQIbrf006PJspGJCA4ANTAgNAGCfIDQAyAaEBgDZEIVGCCF7D0IjhGQTY4x8AwWsfE905/uaAAAAAElFTkSuQmCC" InformativeScreenshot="483388026cdcaf979f420c64e777b415.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='ComboLBox' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="rpa_0821_rel_compe" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="438,180" sap2010:WorkflowViewState.IdRef="GetRobotCredential_6" Password="[Senha]" Username="[Usuario]" />
+                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Usuário'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_34" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="[Usuario]" Version="V1">
+                                                                  <uix:NTypeInto.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="390, 199, 308, 23" ElementType="InputBox" FriendlyName="'rpa_0821_dev_cheques'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' idx='3' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="87a1d9b8-b737-40a5-872c-43221187d116" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAbCAYAAADoMJNGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALGSURBVHhe7ZqBjesgDEAzVwZiiE6RabpMh8nHGFJDIaS9Xq7lvychNWkwBsnvHPWmFQBgUBAcAAzLJrjL5cJgMBhDjEQmOACAbwfBAcCwIDgAGBYEBwDDguAAYFg+R3BXt07TFMa83OJNT+P+1em9h+eFMMet13h5jOvqpnktQ72fs9YBgA8RnBR9EpIVQOPzbVmXzV72mdu6zF56zpl4R7FxfpOz1gGAzxCcdFzurqPbMmtX5kU2z4vXliJdm3ksIlIrhSESQXAA/ztPCk6L07k5vgLGYr16EXVeI63ASjahJTbhWXm1pFW733q2QAS65b3oXlIa5jvdq3aH2TYkTyPgR2JHGePo3P0ze1w30sw1xttCFNfVeLW8AMbjBcHZgtTrrchDMdliS5RFmNMWnMcUaK0QRaLZ3ICs1xOc5n5fRqTdkIbPJ6xRdJr1jjKhEqnnZs5MYm65NtZ9JtfsuhGv2AfAqLzUwdWLScmKPhRv6hTy5yxNwYncmq+oLYEIkldHcEVsnRNzzLqeOMLCNq7/vNe9hRi1HMozO7DuXq6vxvOf62cHMA5vFpx5jcsKXO7b5wqKjiIJr93ZdeKFvH4quPr8Zm4lzRg7Z9ias5frK/EisgeRnjl6gKF4g+BMJ2ALSmSUijLct/MKskI0a9gY4TKuVQjxEYnRLmxFc09htNhTjsW+LEE2zndvvfh7r6jlGfbW3cvV/FER5GyO7CPSFTXAF/OWDk5/dNBXoLt3tPDC/SAEO69CKMwyRirmGCd+kd2LIy9SyasnII9Zc/9HBj+2pOK+bJJNVDAphk6pn2F33b1czXf6LzKdePb5I+cE8KU8KbiSsljhHDh3gCOcLDh53nQTp3QQv73mX+0JwQH0oIP7Sjh3gCP8UHAAAJ8LggOAYUFwADAsCA4AhqUpOAaDwRhhJDbBAQCMBoIDgEFZ138aq+QaUp2V0QAAAABJRU5ErkJggg==" InformativeScreenshot="491f71e2e68eea3a7354c4503a5b8702.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="309, 202, 43, 16" ElementType="Text" FriendlyName="'&amp;Usuário'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Usuário:' cls='Static' title='&amp;amp;Usuário:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Usuário:' cls='Static' title='&amp;amp;Usuário:' check:text='&amp;amp;Usuário:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAUCAYAAAAdmmTCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVEhL7ZQLDsMgCIa5lhfiOt7Gy3gYJmgUqevsls408U+WFMbjK2KBHqwNv0obfpUUfCAERz4WUzTyXVf0jgBDsYyiJ/dlj/vhExz++vZv9Af4SPegX4KP5B0QQP7lLbA5vR2wxbe1yTGIaZUAk2VqyBrZPkkBCZzvBjEPz8mHvbU5oxos7ednIFeDjv/VNvo+/ARfJtKasmyOsblhmSBU/0mO9ODTaOLTO8ysSMHzWuiiSYNi8uWo05kF0bVvgc+B+mjEHmTyC+QTyPeghsikC4g+ZoGagJdnuzblZc7XhtVfyi64WwE1He1HVCCqlkv+mcmzBLjkaf9n+Gdpw6/Shl+lB8MTvQBdAHRIExGfWwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NTypeInto.Target>
+                                                                </uix:NTypeInto>
+                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Senha'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,241" sap2010:WorkflowViewState.IdRef="NTypeInto_35" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" SecureText="[Senha]" Version="V1">
+                                                                  <uix:NTypeInto.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="390, 227, 308, 23" ElementType="InputBox" FriendlyName="'Ls0a63bacA'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' idx='4' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="843ce6b3-04f2-41bd-ae88-85902b303fdf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAbCAYAAADoMJNGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVHhe7dbBDYJAFEVR6qIgiqAKqrEZixmVOARNXEBcDG/OSd6Gv+ZmhgIQSuCAWFvg5nk2M4tY9RE4gKsTOCCWwAGxBA6IJXBALIEDYgkcEEvggFgnAncr0zCUYd1Ylvv786rnG9Cag4G7l2WsP3jd9Pzte78BLToYuP0Lpq6+ZHq+AS3ygvvLDWjRwcC97F8y3y+Ynm9Aa04EDuAaBA6IJXBALIEDYgkcEEvggFgCB8QSOCDWz8CZmSWs2gIHkEbggFClPAD4erbB7kho5wAAAABJRU5ErkJggg==" InformativeScreenshot="ae5dc9c0df41ccbc00955272e7cea132.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="309, 230, 35, 16" ElementType="Text" FriendlyName="'&amp;Senha'" FullSelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Senha:' cls='Static' title='&amp;amp;Senha:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='wxWindowNR' title='-1' /&gt;&lt;wnd aaname='Senha:' cls='Static' title='&amp;amp;Senha:' check:text='&amp;amp;Senha:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAYAAAAOTSQ2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADqSURBVEhL7ZPNEcQgCIVpy4Zoh25sxmJYfzCIcXazJIccfDMelAhfeAj8Ym04rzacVxYuIgOALOQox/8rMkJgSrJ1SuEScRiB8p7cdE/Dla4F4pv5RE/D1YTAYZWxdnW2WwBIR0HvSizqvTFvxJ4rLxR7Fs2ZHkRiCu1Sv3MUOuqiFGo/Y5Ib8BzrxUxs1JD7N5xIOlXrmq7JqoEJ2uy/xcpWuw3mO6s1XFai0CDmh3LICWfyFaeuwOX50I+avaN951l0wo32VdDFuej0IKx1otnaW7bqXENAxt65yzP3Em04rzacVy+GY/4AS+QhMvt/PdoAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NTypeInto.Target>
+                                                                </uix:NTypeInto>
+                                                                <uix:NClick ClickType="Single" DisplayName="Click '&amp;Conectar'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_44" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="426, 426, 88, 26" ElementType="Button" FriendlyName="'&amp;Conectar'" FullSelectorArgument="&lt;wnd aaname='Conectar' cls='Button' title='&amp;amp;Conectar' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Conectar' cls='Button' title='&amp;amp;Conectar' check:text='&amp;amp;Conectar' /&gt;" Guid="85fe7f63-7394-4e95-9db5-3f178af63ea9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVGhD7ZbdlYQgDEbpiW7SDK3QgEVYih3YActflCiOs2c0s8f9Hu4DBERvYtTM8xyAHhCuDIQrI4QPwwBuoHW8Ez5NE7gQCFcGwpWBcGUgXBkIV+YLwsfgrAnGVKwLY3fdM9EVPrpgo2Tycs6149vxgYwNbuzF7kdReKlsIfsr/Bfhubop+F6MqW8At5s1OVWSoyVm3Xiwrz1Dti/y6Trr2JDP6zzt5/hMIhvnT+77F+gKf9mvi4xFcpbIlVhFsQyfxLOEmgyu2BgrySiyRWJ66w9j5cz9/s/4OxXeiafKKwnYSmrGorqbKj08ryM8J5D3t8I36y5AT/hZD/9IeEfsu8LFunSPjxEeqZUkpMcHLn8p6QG3LYVFvBBe9+1f/TdbSronbnX5zCcJT+SHal7/tq+L2JHgznh7TfHhW+c5mctHMq9rPqyWAj2qwgGEawPhykC4MhCuDIQrA+HKnAoH19M6FsLB/UC4MhCuyhx+ANunAJRRuLxXAAAAAElFTkSuQmCC" InformativeScreenshot="e0eb6bf215a2cf97fd6958fead205ac7.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Gerenciador de Sites' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="438,136" sap2010:WorkflowViewState.IdRef="SendHotkey_6" Key="m" KeyModifiers="Ctrl">
+                                                                  <ui:SendHotkey.Target>
+                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="d45acc16-d61c-4c66-8903-5701da8d8ce9">
+                                                                      <ui:Target.TimeoutMS>
+                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                      </ui:Target.TimeoutMS>
+                                                                      <ui:Target.WaitForReady>
+                                                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                                      </ui:Target.WaitForReady>
+                                                                    </ui:Target>
+                                                                  </ui:SendHotkey.Target>
+                                                                </ui:SendHotkey>
+                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Arquivo'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_36" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]" Version="V1">
+                                                                  <uix:NTypeInto.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="73, 116, 200, 26" ElementType="InputBox" FriendlyName="'C:\Users\cayo_garces\Do…'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="1cee8392-1911-4077-9985-612e2084d118" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAeCAYAAABg1PHWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPiSURBVHhe7ZiLcdswDIY9lwbSEJlC03iZLOENVIAPCQABinR1bnr5vzs0IUXiSVBKH6/Xa4dAIGOChoFAJuRomK+vLwgEEojbMACAFjQMABOgYQCYAA0DwARoGAAmeLNhvvdteeyPR5FloxnJc18fK/1r4fll39Rib+4OIh9+M726iHqSLPcXJODu+vf0jZ6JWMd8w3xv+0IJXaVVmtuMF8/VrEl4jtydsBPfh9/NWF14TI3zkeTdXf++vrEzEeuYbJj8ZhnKIzdWs9Bz5O6ECVwffjmjdUkX4yfe0HfX/0Lf0JmIdcw1zFUSn6v4POPmskY9R+Sc/tQ74kp263y1n/et61LmvL2eD4xvh2+fOpdv17xO5VfGqPwauEjE+mXbVC5a22nWxMjM5Gg0J15dTOxBrPrGNnp4T3pY5jfKXdl/fvI5exw7jJ8jIszraPxEqCM/q8w3TPP3ikA1DEFj/S3sFUbM8X6ZiITZc+jkeZF4dy/R+JCTqOcssU/nAcn2j0cp4TY2iV7/vXETeOtlvCbG0He5h4cl5uGcmP0J2TDadxWrtMF66TBW3Rxj/j3vl+vsxZe3dOwo4j0qr1PxR7XJtir3vmEayJhqMBloRcwl/eZAlLl6SyRJkRld3t6E8aEXQypktSMTJoqr3i5aj75tDby+l4vQto3R8b3Efu4nYUfK/GVOrJ2EuIl7sYq4nvQm3J51LG9yq1+Oxe89O3kgYhR7olhG4x/QUZlrmJSEzqFw0IdIJrHgJCl3uCiId0hkUAK1t6B8iPSpee1nvSnrzzLZ6Hm7YULbJsYh31suc2LtMFKno//cX/0lHUej0Frec8Rr9cux+L1nRz0TOVJ2mDaWoTNxUZvKZMMQpculcVaa/peMnynDBBsUi9lRuSaNlbLMeTjZ+YHPEIE62IzygZPt6JO+pyQJ3TymQ7CqZs9+qaSbYmv0+lzEoi+0bWMMfC+62/mTfk6sHRObHZtYk27KTdXP43WVnz2efi/Gjp1ujoK8Cq7jj3TkZ5X5hmGSw/XVKBrAa5hUZBlALnqzl+H9h15x+Ky9FJlMNA+DvQnrQ05CXZ8TJfxqmoPV0/yR4ILyS693ET6Gf5wq2ybGhOc74eVoOCdapxtLL9b0TMzZcROHHJtnoZ1OfaK8zpyJsDYE+VR5r2FmIWd6t99H+Esf1Cv8DtLBsEX8MD+hLv+SN+L/TMP87/Dhbt6cEfa29m633IDt2xj8dNAwXepngPw0eBfxSRE0Efj5oGEAmAANA8AEaBgAJkDDADABGgaACdAwAEyAhgFggrBhIBCIL03DQCCQa0HDQCDD8tr/AH1UyOZLRQz2AAAAAElFTkSuQmCC" InformativeScreenshot="18a56d896dfe8e68332ab4954b7b7b73.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="23, 121, 45, 16" ElementType="Text" FriendlyName="'&amp;Arquivo'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='&amp;amp;Arquivo:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo local' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='&amp;amp;Arquivo:' check:text='&amp;amp;Arquivo:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAUCAYAAAAk/dWZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE/SURBVFhH7ZXbccQgDEXVFP2oGpqhF2pxBwpCBiQensmuk7AZf9xZMCDp+AovHMdBn64HYhc9ELtoChEQCDAMz29R9OTAkY+TtRc1QnASh4Tu3kQ/qQEiekfOx/rbr++oDiKSLw5kRzzFuhYIUxsgOgJACvwst0ZqvSTnfV4X92Rvc1LPy5hzAWEoe5ICEpScKjar7tN7TlkIU7gCynNOzsUWd2RegrNz8C2INOaC1N3juyjxbGwBUmeuIPoWyoXVJF1hC6eGQi/XeHy6ymPjQnkuaoCjFAQHbPY1qSS3Qyzu4MsQE5ukpbTFfWEtsG2nrt859gJCXgZ/DXXRNraBumonJp19jVpL9RBJuThxzF5suwaYilxBnMDD/1Iu/Dzfx11BvK8J5C+pQtS3tpA+NNcGEO/rX0D8nR6IPXTQF/h1XYRUWOSyAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NTypeInto.Target>
+                                                                </uix:NTypeInto>
+                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Caminho &amp;remoto'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_37" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="/CREDIS/mt/821/siret/" Version="V1">
+                                                                  <uix:NTypeInto.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="490, 116, 200, 23" ElementType="InputBox" FriendlyName="'/'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="0fa6fce7-d30c-439b-9317-032a29bb610c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAbCAYAAAAwGWBlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADASURBVHhe7ddBDYQwEIZRdFVQRaCiajCDiTro9kD2wpJlep33kp8EAV9gtt77MLN3E4xZYN9g9n03s4f9DAa4EwwECAYCBAMBgoGA9WCOOrZ6XC+Qw2Iw52iljHZer5DEWjBnG8XXhYSWgjlbGXoho4VgjlG3Op+QTzyYeewXxwtJBYNx7JNbLBjHPsmFgnHsk10gmHnslzZ/yiCv0BcGshMMBAgGAgQDAYKBAMFAwGMwZvZ7t2DM7P8EY/Z6fXwAvfZV+6dyhL0AAAAASUVORK5CYII=" InformativeScreenshot="504ee29821187a41dd4a132c10af84c7.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="391, 119, 94, 16" ElementType="Text" FriendlyName="'Caminho &amp;remoto'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Caminho remoto:' cls='Static' title='Caminho &amp;amp;remoto:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Caminho remoto:' cls='Static' title='Caminho &amp;amp;remoto:' check:text='Caminho &amp;amp;remoto:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGIAAAAUCAYAAAB23ujSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVFhH7VfZscMgDKQp+qEamqEXanEHehwCSxgIODMxyeNjZ8C6Vl6EE3EcB2w8jy3EIthCLIItxCLYQiyCihAWtBQgBEJqsBefm7AapJCgbcXGYEAN+f0OuBDhRQlQhj/TdP8RfKMQ73EmQsRJYCI8hv8sRJgGBYYYSxhFrixl8DkSMHGavM2LabXMvlJb7hvI4lqrth/JedoccHJTXP3wxBxKeR7YF4tLvc7wL3Ok2j7H+Sy/mxZP43ournwuxPD3AMnnF+oKpVhfxO0z+bAvmqZxifTFr8zJbbmp0GzKSRH96ofAweWMtlqtHv9W7SJ/z9fn7AqRCzaAJCN6BFr71nrCVuHpJzU3nFHkCHGJOyIcgh6PYt+tXas3wjNi/BvBEnvfVHSikeZ6wvaWEDyu6ne79ut6g0I44Ilnzi5h+NVExykUSUUnGmmuZ22E49QLLu77pt+d2rW4hm/3akoIAWR8cwD5fyEVqKcmwu8ZR+pHUeZwKHubvZouOXh+f+LPvB3fISE2HsHPCpFPPaLmsxL2RCyCLcQi2EIsgi3EEjjgD/3o0ZtiMw+FAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NTypeInto.Target>
+                                                                </uix:NTypeInto>
+                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Ar&amp;quivo'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="438,216" sap2010:WorkflowViewState.IdRef="NTypeInto_38" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Text="[&quot;RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]" Version="V1">
+                                                                  <uix:NTypeInto.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="490, 144, 200, 23" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' idx='2' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="1e9d269e-28ff-48b2-a745-192ba0ab3a25" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAbCAYAAAAwGWBlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABzSURBVHhe7dOxDYAwAMAw7u7V/QA2lhbR7LaUE3LNOW9JZxlGCr3DjDEkfbQdBlgZBgLDQGAYCAwDgWEgMAwEhoHAMBAYBgLDQGAYCAwDgWEgMAwEhoHAMBAYBgLDQGAYCAwDwecwkvYtw0j6zzDScfN+ABo3bj2x+32SAAAAAElFTkSuQmCC" InformativeScreenshot="695b278e965eed19bd214cab5b77001a.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                                                                      <uix:TargetAnchorable.Anchors>
+                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                          <uix:Target DesignTimeRectangle="391, 147, 45, 16" ElementType="Text" FriendlyName="'Ar&amp;quivo'" FullSelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='Ar&amp;amp;quivo:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Arquivo remoto' /&gt;&lt;wnd aaname='Arquivo:' cls='Static' title='Ar&amp;amp;quivo:' check:text='Ar&amp;amp;quivo:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAUCAYAAAAk/dWZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVFhH7ZXbccQgDEXVFP2oGpqhF2pxBwpCBiQenonjzZCJP+4sL0s6vsILx3HQX9cLsYteiF00hQgIBBiG9UcUPTlw5ONk76ZGCE7ikNA9m+iTGiCid+R8rL/9/o7qICL54kB2xFOse4EwtQGiIwCkwGu5NVLrJTnv8764J2ebk3pexpwLCEM5kxSQoORUsVn1nD5zykKYwhVQnnNyLra4I/MSnJ2Db0GkMRek7h7fRYlnYwuQeuYKom+hXFhN0hW2cGoo9HKPx6erPDYulHVRAxylIDhgs69JJXkcYnEHb0NMbJKW0hb3hbXAtp26fufYCwh5Gfw11EXb2Abqqp2YdPY1ai3VQyTl4sQxe7HtHmAqcgVxAg//S7nw8/k+7gri55pA/pJuQ9S3PNHs/Cf1v53YSS/EHjroC9y+Y2Ca8KtOAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                                                                        </scg:List>
+                                                                      </uix:TargetAnchorable.Anchors>
+                                                                    </uix:TargetAnchorable>
+                                                                  </uix:NTypeInto.Target>
+                                                                  <sap:WorkflowViewStateService.ViewState>
+                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                    </scg:Dictionary>
+                                                                  </sap:WorkflowViewStateService.ViewState>
+                                                                </uix:NTypeInto>
+                                                                <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="438,22" sap2010:WorkflowViewState.IdRef="Delay_37" />
+                                                                <uix:NClick ClickType="Single" DisplayName="Click 'Começar a'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="13, 497, 233, 15" ElementType="CheckBox" FriendlyName="'Começar a'" FullSelectorArgument="&lt;wnd aaname='Começar a transferência imediatamente' cls='Button' title='Começar a transferência &amp;amp;imediatamente' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Começar a transferência imediatamente' cls='Button' title='Começar a transferência &amp;amp;imediatamente' check:fulltext='Começar a transferência imediatamente' /&gt;" Guid="4ba9676e-ab8d-4dee-86ad-099fc4b12e1f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAO0AAAATCAYAAAB81YrmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM2SURBVHhe7ZgNrsMgCIB7pyU9j7fxML1Lz7Ib+KT+FBGctt3eurDkS6ogIIq1m57Pp1MU5T5o0SrKzdCiVZSbkYv28XgMgw0pivIZiqId+WnRKsr/8IaiXZ2dJzdNkdm6ldVTulnMiVwuzvixZuFknazWzdPs7MrIOEb1h4E5Rftv9/V9XFu0WwLJBvF99syG+VrQxmHlV3Gu6BZj3AIHqfmlw3M0959aq1dcE8eFRRvesKdO9FvxyaI96md1axq3+udKfle0aLeH00W7vWXhVEd9lPgmTlfnvcDjZJZdDrLVzll3tqtgB/ssr+bJ/mL2vsksUTf4NAZ81HHzYxIwlsprey2/1sYrr2efG42/9JP12Pkz82no8f4BLodxTNxs7dxQ/fh8dm1R/2xtbV+MDeS078XanIo12qjyy8chzrfBtUXb/OYKQadCCsHixPug0/j4DZcTtLVJUuIigSzohc1WJLUCjw0+2/oA8Sf2t+zVfvOi4bnBc95ACc4Pauf5U/9tPda/mEMaw0h/9HdqbYONtHdCEWH7PTFwOlQW/FwRK59fGodkI8l5PvemZeRw2nEnebNdnEwRSFDLf0x+INmlPgjsGMyrmD1dfuu5lQtH9KX5H9Wr/HM5JGOGctPwR9tSzNBfvBAa9nvXenRtaPtIfqlMtJHG8nzum5bZEMeLltlYXf0Qo5DArjGYFzF3+63jSNcxNjfSPI/q4XbPmOHcNPzRtuQf+nuKVoyN+OzVa7WlWJs2iEy00ebCovXE06soXB9Y+PcYAkayIuDWRGk72KmvEZB8ph9iSgu++RQS2DUG8yLmbr98HFC4+3WL6nPzP6OX2kIOsc5wblr+OF3J/753xOtxb84Prw1uw/NofjkZZ6PNtUULbElAr/uUnEomTayjTX3kK0VIQuoPixw24tY3G2fEUxUjjSnJf2aw16Jev6gNmwn0N6QDzcPO/6ge197H1G/7ntxg/R5/qC2tLcqN/EeUHFu5VgfWpjvW9pgyDslGGstzfdH+NzEJo6eXotyFomhHwYa+C3+6dZxYynvIbw0PJ1fOkYv2V0jXj+K7WlF+iJ8rWkX5dbRoFeVWPN0f23MsW1FfOcMAAAAASUVORK5CYII=" InformativeScreenshot="f86d338d8ba5f7b9b30541d57e8d0183.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <uix:NClick ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_46" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="606, 517, 88, 26" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='5100' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='5100' title='OK' check:text='unchecked' /&gt;" Guid="efbe1d2a-43a8-4a7d-923e-3618c243f22b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEYSURBVGhD7dbBEYMgEIVheqIbKsmNVmiFKnK2AzrYiGhkxcyYUVd25h3+A7qnT0RNSomQXAAXDuDCMXDzeqMbYsZssTOMzseM2WIeGIYBXRDAhQO4cAAXDuDC6QQPjowx36yP1f1AzljycVlH8nacc6GaeS594BN2C7qic/Dgtg/k2ZSBF1wXNtejJ2schWm9gkdvu9nZS7rAGWxdfhDLrp7B/fgmWE+xmX02feC7iPXOz+DlbG/ehA7SB350h4c8u1zrJ13gf57h5QO794CeSxn4WINYjpBffynTh7Ojs1wfeG7zH853PAfP5V/DXtB1gisO4MIBXDiACwdw4QAu3GFwdG3MmC12htH5mHG9QPcHcOEALlqiDyd/APL6OyhdAAAAAElFTkSuQmCC" InformativeScreenshot="9d6fb4645b2d8bfbba37c4634e50968c.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='Transferência &amp;amp;manual' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <uix:NClick ClickType="Single" ContinueOnError="True" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="438,156" sap2010:WorkflowViewState.IdRef="NClick_47" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e116ff57-6b68-4351-ac77-816a514955e0" Timeout="3" Version="V1">
+                                                                  <uix:NClick.Target>
+                                                                    <uix:TargetAnchorable DesignTimeRectangle="752, 286, 88, 26" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;wnd ctrlid='5100' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='5100' title='OK' check:text='OK' /&gt;" Guid="72516997-dd33-4553-a362-6e636023c44f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVGhD7dbLEYMgFIVheqIbmqEVGrAISrEDO7gRiRHETCYz5sDNnMW/UFl9PMQsyyIMF8HBERxcBT5NE/tBpXEDPs8zuzGCgyM4OIKDIzg4goPTBx6cGGNeWR+L70GcseLj/hzF23WcC8WYvukC37Bb0AO9Bg/uPCH9UwSecV04vY9erHEStucDPHo71Mre0wNewZalidhX9RPcrzvBeonN2P7pAr9ELFd+As9ne7MTBuk/V3hIY/d3Y6UH/MszPP9gryaob4rA1xrEfIS8u6VsP87BznJd4KnTPbxe8TV4Kl0NR0LXB648goMjODiCgyM4OIKDIzi4j+Ds/krjCpz9PoKDIzi0RR4GwbCBH2bPeQAAAABJRU5ErkJggg==" InformativeScreenshot="ccca395333769e737fdaabf776a454d8.png" ScopeSelectorArgument="&lt;wnd app='filezilla.exe' cls='#32770' title='O arquivo já existe no destino' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+                                                                  </uix:NClick.Target>
+                                                                </uix:NClick>
+                                                                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="438,22" sap2010:WorkflowViewState.IdRef="Delay_38" />
+                                                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="438,89" sap2010:WorkflowViewState.IdRef="PathExists_18" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\RELS_GMP_0821_&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;.ZIP&quot;]" PathType="File" />
+                                                              </Sequence>
+                                                            </ActivityAction>
+                                                          </uix:NApplicationCard.Body>
+                                                          <uix:NApplicationCard.TargetApp>
+                                                            <uix:TargetApp Area="276, 23, 1013, 715" FilePath="C:\ProgramData\App-V\73FD2FF0-1E96-446E-AB34-71D42D5F2E2A\936BAFF7-63B5-4AFC-82F4-221B824DCDB7\Root\VFS\ProgramFilesX86\FileZilla FTP Client\filezilla.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVSSURBVFhHvZdrTBVXEMcHpJRKUfFDP5mgGPzQtFrb1A+EakpNmqZGgmmTxqSPVNOkrUZMWnxFaVL5YNNHSqGAgMKtaMvDaw0PC1iKvGmF8pQCSgCRK/Tyxvue9H+uuzdnlw0VSbjhx5lzZs7M7DlnZ3dJ/K4TlYHGt4n80L4I5vKJnvvsoa4JXBZ2XxC9CXkSRD9L9CTaclALOQTty2AMNh8qPtPAIHwEwFco5FkQI3SlRHmQm4RMv+MPHSdwgyowAhjcBTWK7AKVYEjpDwAxzwYc4AboAR5gASIxoRO2jaBPkSeAHK9GJNCpdITBciKS7SMsuz+EWkmxXHQgdgBVYM/BfcAq5ZJ83c+P/1izhquAaFVZ39ePV65c6fOhIvxKvqcg7yAxULYAdZs3s2N8nJ3T04tiMDWVy5C8kU8JD10iegGn8t41DKD1osqi7Tp4kD0ez6LpOnTI50PvW+lPIPYrFIc7oYSoHrARlqIiwwD/R11kpKE/iVuI7U/FRO1FGDCiJDDQu5yyY/vYGNsslgWZGx7mUpwBI586+gj/iq7iPgesp2rrVk1wl8PBlTgTFeHhC1IeFjbPlwFugLOI3xUUIMB6mvft0yQw2dY2z2YJtHmDxxPFos7eBSxjBr1JSZoEbqena2yWiPVzor1UiJJZgAE9Zuz/SEmJJoGOhAS+FhExj98MxuaxcSMX+vvr49hFAq/hYTGYhwEZ86pVPNnZqUnAMTXFNnEIH4OJ1lYuDA6WY4zhNnyDIoie+hlnALDM1XXr2KG7A5bCSHk552NVpRitiB0sClHtRSwFYJnq2Fh2u92Gzh6HjtOnGbG8KDGcoIFy8Vy+gEcqYJnejAyNg9GGBm45enRB/j5xgkebmjTznDYb3zaZ+FJQkMY/cIFmsQVP/0RUDVhmdmhI46hu/36NXs+FFSu4+fhxdszMaObdSk7miwiutzfhNkTs1ZSDepxNdAewSsH69RonbpeLCzds8On1mBC88cABds7O+uY45+a4C7exKSDAcA6wnCd6lSDMQvAAVqmIidEkMN3fz+fxZJNtVLLFleP2FAHlOa1nzrAJh85ojsQcfUr0XiZewwCr3Dx1SuPsTn6+TydzDlfXePgwO6QrF1vQkpjI53DPG82RGP+E6CNvNczA+x5gQSYm9ubmahJojI/36mQyceUtONnOBw80tn+ePMlZSExvb0CLN3g60S/AmYZBtJyFA2PBiVcdunCKS3ft8upUMrC0DUjKIS27HUWq4cgRn43qT7TZoaF8Fgnrxt3ATPg3kIoBlayQEJ4bHfU5tlmtnLdli0+fJvYc++uy2302gnokJHSq3VkkaY6K4vaUFJ7o6eF0rIqqkxihd/EtkIJaAFiQv22b99SrjqcHBjhz7Vqv7kdsTwPudfnKVVzYivHubragDljRyudiAFVQ9a+STPTPXqIn6Eui8B/wLAAsyMHzvHjPHh/mnTu94yojukLzKNyIi9P4ULAmEj1PSeh8vwgKtm9n2+Sk17Eo1QuVa7FNw/X1nIOnoZEv4KFv8Zn1HbIB/CgkYW9rsQ2/7t7NWShOWShaBdHRXH3sGHfn5XE/lrvn8mWuQVXM2bSJk3CojfyAWRCD11Kib1CKAS8zbVHipRRCHXBJiuXC8zXRTZFAPXArNAIrEAb3wV+KLHTCbkTp38NkkbgdOIGY1w+E7l/oxIo6RB9yK9pBRTcD1HgPExA/nAMxoX0HluQrokj0OYHoJfG5DrkLhviWIPoA74/oC8evhxEFoa0BzZBXoxXzZt4n+ljxaQLWt4gC8cn+DGQPbN5BDHHRxaCDiOg/HIOM9etvimwAAAAASUVORK5CYII=" InformativeScreenshot="74ba5f74a3095bbbfb2e4131e56edaee.png" Selector="&lt;wnd app='filezilla.exe' cls='wxWindowNR' title='FileZilla' /&gt;" />
+                                                          </uix:NApplicationCard.TargetApp>
+                                                          <sap:WorkflowViewStateService.ViewState>
+                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                            </scg:Dictionary>
+                                                          </sap:WorkflowViewStateService.ViewState>
+                                                        </uix:NApplicationCard>
+                                                        <FlowStep.Next>
+                                                          <FlowDecision x:Name="__ReferenceID17" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_19">
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                <av:Point x:Key="ShapeLocation">270.5,1686.5</av:Point>
+                                                                <av:Size x:Key="ShapeSize">79,87</av:Size>
+                                                                <av:PointCollection x:Key="TrueConnector">270.5,1730 270.5,1794 320,1794</av:PointCollection>
+                                                                <av:PointCollection x:Key="FalseConnector">349.5,1730 490,1730</av:PointCollection>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <FlowDecision.True>
+                                                              <FlowStep x:Name="__ReferenceID5">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <av:Point x:Key="ShapeLocation">220,1794</av:Point>
+                                                                    <av:Size x:Key="ShapeSize">200,52</av:Size>
+                                                                    <av:PointCollection x:Key="ConnectorLocation">320,1846 320,1889</av:PointCollection>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_35" Level="Info" Message="[&quot;Arquivo ZIP baixado. Iniciando descompactação&quot;]">
+                                                                  <sap:WorkflowViewStateService.ViewState>
+                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                    </scg:Dictionary>
+                                                                  </sap:WorkflowViewStateService.ViewState>
+                                                                </ui:LogMessage>
+                                                                <FlowStep.Next>
+                                                                  <FlowStep x:Name="__ReferenceID4">
                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                        <av:Point x:Key="ShapeLocation">220,1794</av:Point>
-                                                                        <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                                        <av:PointCollection x:Key="ConnectorLocation">320,1846 320,1889</av:PointCollection>
+                                                                        <av:Point x:Key="ShapeLocation">220,1889</av:Point>
+                                                                        <av:Size x:Key="ShapeSize">200,22</av:Size>
+                                                                        <av:PointCollection x:Key="ConnectorLocation">320,1911 320,1944</av:PointCollection>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_35" Level="Info" Message="[&quot;Arquivo ZIP baixado. Iniciando descompactação&quot;]">
+                                                                    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_39">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                    </ui:LogMessage>
+                                                                    </Delay>
                                                                     <FlowStep.Next>
-                                                                      <FlowStep x:Name="__ReferenceID4">
-                                                                        <sap:WorkflowViewStateService.ViewState>
-                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                            <av:Point x:Key="ShapeLocation">220,1889</av:Point>
-                                                                            <av:Size x:Key="ShapeSize">200,22</av:Size>
-                                                                            <av:PointCollection x:Key="ConnectorLocation">320,1911 320,1944</av:PointCollection>
-                                                                          </scg:Dictionary>
-                                                                        </sap:WorkflowViewStateService.ViewState>
-                                                                        <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_39">
-                                                                          <sap:WorkflowViewStateService.ViewState>
-                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                            </scg:Dictionary>
-                                                                          </sap:WorkflowViewStateService.ViewState>
-                                                                        </Delay>
-                                                                        <FlowStep.Next>
-                                                                          <x:Reference>__ReferenceID2</x:Reference>
-                                                                        </FlowStep.Next>
-                                                                      </FlowStep>
+                                                                      <x:Reference>__ReferenceID2</x:Reference>
                                                                     </FlowStep.Next>
                                                                   </FlowStep>
-                                                                </FlowDecision.True>
-                                                                <FlowDecision.False>
-                                                                  <FlowStep x:Name="__ReferenceID16">
+                                                                </FlowStep.Next>
+                                                              </FlowStep>
+                                                            </FlowDecision.True>
+                                                            <FlowDecision.False>
+                                                              <FlowStep x:Name="__ReferenceID16">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <av:Point x:Key="ShapeLocation">490,1704</av:Point>
+                                                                    <av:Size x:Key="ShapeSize">200,52</av:Size>
+                                                                    <av:PointCollection x:Key="ConnectorLocation">590,1704 590,1674 580,1674 580,1630</av:PointCollection>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                <ui:CloseApplication ContinueOnError="True" DisplayName="Close Application 'filezilla.exe Novo'" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="CloseApplication_6">
+                                                                  <ui:CloseApplication.Target>
+                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="1277b7e6-f2c2-4e59-9260-1f66212cf24a" InformativeScreenshot="92abc818ec67f323fb7291ca4b231464">
+                                                                      <ui:Target.TimeoutMS>
+                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                      </ui:Target.TimeoutMS>
+                                                                      <ui:Target.WaitForReady>
+                                                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                                      </ui:Target.WaitForReady>
+                                                                    </ui:Target>
+                                                                  </ui:CloseApplication.Target>
+                                                                </ui:CloseApplication>
+                                                                <FlowStep.Next>
+                                                                  <FlowStep x:Name="__ReferenceID14">
                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                        <av:Point x:Key="ShapeLocation">490,1704</av:Point>
-                                                                        <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                                        <av:PointCollection x:Key="ConnectorLocation">590,1704 590,1674 580,1674 580,1630</av:PointCollection>
+                                                                        <av:Point x:Key="ShapeLocation">449,1570</av:Point>
+                                                                        <av:Size x:Key="ShapeSize">262,60</av:Size>
+                                                                        <av:PointCollection x:Key="ConnectorLocation">580,1570 590,1570 590,1546</av:PointCollection>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <ui:CloseApplication ContinueOnError="True" DisplayName="Close Application 'filezilla.exe Novo'" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="CloseApplication_6">
-                                                                      <ui:CloseApplication.Target>
-                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="1277b7e6-f2c2-4e59-9260-1f66212cf24a" InformativeScreenshot="92abc818ec67f323fb7291ca4b231464">
-                                                                          <ui:Target.TimeoutMS>
-                                                                            <InArgument x:TypeArguments="x:Int32" />
-                                                                          </ui:Target.TimeoutMS>
-                                                                          <ui:Target.WaitForReady>
-                                                                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                                                                          </ui:Target.WaitForReady>
-                                                                        </ui:Target>
-                                                                      </ui:CloseApplication.Target>
-                                                                    </ui:CloseApplication>
+                                                                    <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_26">
+                                                                      <Assign.To>
+                                                                        <OutArgument x:TypeArguments="x:String">[strDataInicio]</OutArgument>
+                                                                      </Assign.To>
+                                                                      <Assign.Value>
+                                                                        <InArgument x:TypeArguments="x:String">[Now.ToString("HH:mm")+"h, dia "+Now.ToString("dd/MM/yyyy")]</InArgument>
+                                                                      </Assign.Value>
+                                                                    </Assign>
                                                                     <FlowStep.Next>
-                                                                      <FlowStep x:Name="__ReferenceID14">
+                                                                      <FlowStep x:Name="__ReferenceID15">
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                            <av:Point x:Key="ShapeLocation">449,1570</av:Point>
-                                                                            <av:Size x:Key="ShapeSize">262,60</av:Size>
-                                                                            <av:PointCollection x:Key="ConnectorLocation">580,1570 590,1570 590,1546</av:PointCollection>
+                                                                            <av:Point x:Key="ShapeLocation">490,1494</av:Point>
+                                                                            <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                                                            <av:PointCollection x:Key="ConnectorLocation">590,1494 590,1401</av:PointCollection>
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
-                                                                        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_26">
-                                                                          <Assign.To>
-                                                                            <OutArgument x:TypeArguments="x:String">[strDataInicio]</OutArgument>
-                                                                          </Assign.To>
-                                                                          <Assign.Value>
-                                                                            <InArgument x:TypeArguments="x:String">[Now.ToString("HH:mm")+"h, dia "+Now.ToString("dd/MM/yyyy")]</InArgument>
-                                                                          </Assign.Value>
-                                                                        </Assign>
+                                                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info" Message="[&quot;Não encontrou o REL_GMP às &quot;+strDataInicio]" />
                                                                         <FlowStep.Next>
-                                                                          <FlowStep x:Name="__ReferenceID15">
+                                                                          <FlowStep x:Name="__ReferenceID18">
                                                                             <sap:WorkflowViewStateService.ViewState>
                                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                <av:Point x:Key="ShapeLocation">490,1494</av:Point>
-                                                                                <av:Size x:Key="ShapeSize">200,52</av:Size>
-                                                                                <av:PointCollection x:Key="ConnectorLocation">590,1494 590,1401</av:PointCollection>
+                                                                                <av:Point x:Key="ShapeLocation">490,1379</av:Point>
+                                                                                <av:Size x:Key="ShapeSize">200,22</av:Size>
+                                                                                <av:PointCollection x:Key="ConnectorLocation">590,1379 590,1130 420,1130</av:PointCollection>
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
-                                                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info" Message="[&quot;Não encontrou o REL_GMP às &quot;+strDataInicio]" />
+                                                                            <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_41">
+                                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                </scg:Dictionary>
+                                                                              </sap:WorkflowViewStateService.ViewState>
+                                                                            </Delay>
                                                                             <FlowStep.Next>
-                                                                              <FlowStep x:Name="__ReferenceID18">
-                                                                                <sap:WorkflowViewStateService.ViewState>
-                                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                    <av:Point x:Key="ShapeLocation">490,1379</av:Point>
-                                                                                    <av:Size x:Key="ShapeSize">200,22</av:Size>
-                                                                                    <av:PointCollection x:Key="ConnectorLocation">590,1379 590,1130 420,1130</av:PointCollection>
-                                                                                  </scg:Dictionary>
-                                                                                </sap:WorkflowViewStateService.ViewState>
-                                                                                <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_41">
-                                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                    </scg:Dictionary>
-                                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                                </Delay>
-                                                                                <FlowStep.Next>
-                                                                                  <x:Reference>__ReferenceID3</x:Reference>
-                                                                                </FlowStep.Next>
-                                                                              </FlowStep>
+                                                                              <x:Reference>__ReferenceID3</x:Reference>
                                                                             </FlowStep.Next>
                                                                           </FlowStep>
                                                                         </FlowStep.Next>
                                                                       </FlowStep>
                                                                     </FlowStep.Next>
                                                                   </FlowStep>
-                                                                </FlowDecision.False>
-                                                              </FlowDecision>
-                                                            </FlowStep.Next>
-                                                          </FlowStep>
+                                                                </FlowStep.Next>
+                                                              </FlowStep>
+                                                            </FlowDecision.False>
+                                                          </FlowDecision>
                                                         </FlowStep.Next>
                                                       </FlowStep>
                                                     </FlowStep.Next>
@@ -836,18 +817,17 @@
       <x:Reference>__ReferenceID21</x:Reference>
       <x:Reference>__ReferenceID22</x:Reference>
       <x:Reference>__ReferenceID23</x:Reference>
-      <x:Reference>__ReferenceID24</x:Reference>
-      <FlowStep x:Name="__ReferenceID25">
+      <FlowStep x:Name="__ReferenceID24">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,994</av:Point>
-            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">950,1224.5 950,173 420,173</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_30" Level="Info" Message="[&quot;Encontrou todos os arquivos  FILEZILLA às &quot;+Now.ToString(&quot;HH:mm&quot;)]" />
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_30" Level="Info" Message="[&quot;Encontrou todos os arquivos  FILEZILLA às &quot;+Now.ToString(&quot;HH:mm&quot;)]" />
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID26">
+      <FlowStep x:Name="__ReferenceID25">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">349,890</av:Point>
@@ -864,18 +844,18 @@
           </Assign.Value>
         </Assign>
         <FlowStep.Next>
-          <x:Reference>__ReferenceID25</x:Reference>
+          <x:Reference>__ReferenceID24</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID27">
+      <FlowStep x:Name="__ReferenceID26">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,784</av:Point>
-            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">480,836 480,890</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe&quot;]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="MoveFile_15" Overwrite="True" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821.csv&quot;]">
+        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe&quot;]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MoveFile_15" Overwrite="True" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821.csv&quot;]">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -883,10 +863,10 @@
           </sap:WorkflowViewStateService.ViewState>
         </ui:MoveFile>
         <FlowStep.Next>
-          <x:Reference>__ReferenceID26</x:Reference>
+          <x:Reference>__ReferenceID25</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID28">
+      <FlowStep x:Name="__ReferenceID27">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,669</av:Point>
@@ -902,18 +882,18 @@
           </sap:WorkflowViewStateService.ViewState>
         </Delay>
         <FlowStep.Next>
-          <x:Reference>__ReferenceID27</x:Reference>
+          <x:Reference>__ReferenceID26</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID29">
+      <FlowStep x:Name="__ReferenceID28">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,574</av:Point>
-            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">480,626 480,669</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:RenameFileX DisplayName="Rename File" FilePath="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821_&quot;+Now.ToString(&quot;ddMMyyyy&quot;)+&quot;.csv&quot;]" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="RenameFileX_6" KeepExtension="True" NewName="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821.csv&quot;]">
+        <ui:RenameFileX DisplayName="Rename File" FilePath="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821_&quot;+Now.ToString(&quot;ddMMyyyy&quot;)+&quot;.csv&quot;]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="RenameFileX_6" KeepExtension="True" NewName="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821.csv&quot;]">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -921,18 +901,18 @@
           </sap:WorkflowViewStateService.ViewState>
         </ui:RenameFileX>
         <FlowStep.Next>
-          <x:Reference>__ReferenceID28</x:Reference>
+          <x:Reference>__ReferenceID27</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID30">
+      <FlowStep x:Name="__ReferenceID29">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,454</av:Point>
-            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">480,506 480,574</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_29" Level="Info" Message="[&quot;Dev_cta_poup disponivel as &quot;+Now.ToString(&quot;HH:mm&quot;)]">
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_29" Level="Info" Message="[&quot;Dev_cta_poup disponivel as &quot;+Now.ToString(&quot;HH:mm&quot;)]">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -940,10 +920,10 @@
           </sap:WorkflowViewStateService.ViewState>
         </ui:LogMessage>
         <FlowStep.Next>
-          <x:Reference>__ReferenceID29</x:Reference>
+          <x:Reference>__ReferenceID28</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowDecision x:Name="__ReferenceID31" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_17" True="{x:Reference __ReferenceID30}" False="{x:Reference __ReferenceID3}">
+      <FlowDecision x:Name="__ReferenceID30" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_17" True="{x:Reference __ReferenceID29}" False="{x:Reference __ReferenceID3}">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -954,30 +934,30 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </FlowDecision>
-      <FlowStep x:Name="__ReferenceID32">
+      <FlowStep x:Name="__ReferenceID31">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,304</av:Point>
-            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">580,330 670,330 670,436.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="PathExists_15" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821_&quot;+Now.ToString(&quot;ddMMyyyy&quot;)+&quot;.csv&quot;]" PathType="File" />
+        <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="PathExists_15" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Downloads\relatorios_custodia\&quot;+Now.ToString(&quot;ddMM&quot;)+&quot;\dev_cta_poup_0821_&quot;+Now.ToString(&quot;ddMMyyyy&quot;)+&quot;.csv&quot;]" PathType="File" />
         <FlowStep.Next>
-          <x:Reference>__ReferenceID31</x:Reference>
+          <x:Reference>__ReferenceID30</x:Reference>
         </FlowStep.Next>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID38">
+      <FlowStep x:Name="__ReferenceID37">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,144</av:Point>
-            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,196 300,236.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="PathExists_16" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe\dev_cta_poup_0821.csv&quot;]" PathType="File" />
+        <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[bExiste]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="PathExists_16" Path="[&quot;C:\Users\&quot;+System.Environment.UserName+&quot;\Sicredi\01.0821 Sede Univales - Documentos\General\sidi_relatorios\Relatorios_Compe\dev_cta_poup_0821.csv&quot;]" PathType="File" />
         <FlowStep.Next>
-          <FlowDecision x:Name="__ReferenceID33" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_16">
+          <FlowDecision x:Name="__ReferenceID32" Condition="[bExiste]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_16">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -988,28 +968,28 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <FlowDecision.True>
-              <FlowStep x:Name="__ReferenceID34">
+              <FlowStep x:Name="__ReferenceID33">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">120,374</av:Point>
-                    <av:Size x:Key="ShapeSize">200,52</av:Size>
+                    <av:Size x:Key="ShapeSize">200,51</av:Size>
                     <av:PointCollection x:Key="ConnectorLocation">960,1234.5 960,183 430,183</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;Encontrou dev_cta_poup às &quot;+Now.ToString(&quot;HH:mm&quot;)]" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;Encontrou dev_cta_poup às &quot;+Now.ToString(&quot;HH:mm&quot;)]" />
               </FlowStep>
             </FlowDecision.True>
             <FlowDecision.False>
-              <x:Reference>__ReferenceID32</x:Reference>
+              <x:Reference>__ReferenceID31</x:Reference>
             </FlowDecision.False>
           </FlowDecision>
         </FlowStep.Next>
       </FlowStep>
+      <x:Reference>__ReferenceID32</x:Reference>
       <x:Reference>__ReferenceID33</x:Reference>
       <x:Reference>__ReferenceID34</x:Reference>
       <x:Reference>__ReferenceID35</x:Reference>
       <x:Reference>__ReferenceID36</x:Reference>
-      <x:Reference>__ReferenceID37</x:Reference>
     </Flowchart>
   </Sequence>
 </Activity>
